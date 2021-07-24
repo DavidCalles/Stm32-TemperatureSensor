@@ -1,0 +1,27 @@
+!SESSION 2021-07-24 19:20:27.629 -----------------------------------------------
+eclipse.buildId=Version 1.6.0
+java.version=11.0.9.1
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-07-24 19:20:43.809
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-07-24 19:20:43.851
+!MESSAGE Log4j initialized with config file C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-07-24 19:20:46.312
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2021-07-24 19:20:47.175
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-07-24 19:21:05.537
+!MESSAGE Indexed 'Assignment3V3' (27 sources, 109 headers) in 3.18 sec: 11,535 declarations; 71,332 references; 3 unresolved inclusions; 46 syntax errors; 171 unresolved names (0.21%)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2021-07-24 19:21:12.549
+!MESSAGE No repository found at https://sw-center.st.com/stm32cubeide/openstlinux/updatesite1.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2021-07-24 19:21:18.113
+!MESSAGE No repository found at https://sw-center.st.com/stm32cubeide/updatesite1.
