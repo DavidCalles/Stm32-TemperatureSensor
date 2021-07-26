@@ -9,6 +9,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment2\PassCode-Comparator\PassCode_FSM"/>
 			<item value="C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3"/>
 		</list>
 	</section>

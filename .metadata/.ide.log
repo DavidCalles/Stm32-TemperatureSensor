@@ -1711,3 +1711,1769 @@
 
 
 2021-07-25 19:46:32,629 [INFO] Activator:171 - !SESSION log4j initialized
+2021-07-25 21:44:20,251 [INFO] McuFinderGlobals:39 - Set McuFinder mode to 2 (CubeIDE integrated)
+2021-07-25 21:44:20,591 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602
+2021-07-25 21:44:20,618 [INFO] DbMcusXml:74 - Set database path to: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/mcu/
+2021-07-25 21:44:20,626 [INFO] DbBoardsPdsc:56 - Set plugin database path to: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/plugins/boardmanager/
+2021-07-25 21:44:20,626 [INFO] DbMcus:258 - Set plugin images path to: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/plugins/mcufinder/images/
+2021-07-25 21:44:20,627 [INFO] DbBoards:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/plugins/mcufinder/images/
+2021-07-25 21:44:20,630 [INFO] DbExamples:333 - Set plugin images path to: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/plugins/mcufinder/images/
+2021-07-25 21:44:20,652 [INFO] DbMcusAds:85 - Set database path to: C:\Users\yodav\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-25 21:44:20,654 [INFO] DbMcusDocs:110 - Set database path to: C:\Users\yodav\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-25 21:44:20,657 [INFO] DbMcusJson:65 - Set database path to: C:\Users\yodav\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-25 21:44:20,658 [INFO] DbBoardsDocs:110 - Set database path to: C:\Users\yodav\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-25 21:44:20,660 [INFO] DbBoardsJson:58 - Set database path to: C:\Users\yodav\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-25 21:44:20,803 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\yodav\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-07-25 21:44:20,816 [INFO] DbExamplesSqlite:690 - Set database path to: C:\Users\yodav\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-25 21:44:20,980 [INFO] RulesReader:52 - Compatibility file has been processed (237 Rules)
+2021-07-25 21:44:21,104 [INFO] MicroXplorer:622 - Detected Java Version = 11.0.9.1
+2021-07-25 21:44:21,105 [INFO] DbMcusXml:74 - Set database path to: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/mcu/
+2021-07-25 21:44:21,105 [INFO] DbBoardsPdsc:56 - Set plugin database path to: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/plugins/boardmanager/
+2021-07-25 21:44:21,105 [INFO] DbMcus:258 - Set plugin images path to: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/plugins/mcufinder/images/
+2021-07-25 21:44:21,106 [INFO] DbBoards:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/plugins/mcufinder/images/
+2021-07-25 21:44:21,106 [INFO] DbExamples:333 - Set plugin images path to: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/plugins/mcufinder/images/
+2021-07-25 21:44:21,106 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\yodav\.stmcufinder\plugins\mcufinder/ => C:\Users\yodav\.stmcufinder\plugins\mcufinder
+2021-07-25 21:44:21,106 [INFO] DbMcusAds:85 - Set database path to: C:\Users\yodav\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-25 21:44:21,106 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\yodav\.stmcufinder\plugins\mcufinder/ => C:\Users\yodav\.stmcufinder\plugins\mcufinder
+2021-07-25 21:44:21,106 [INFO] DbMcusDocs:110 - Set database path to: C:\Users\yodav\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-25 21:44:21,106 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\yodav\.stmcufinder\plugins\mcufinder/ => C:\Users\yodav\.stmcufinder\plugins\mcufinder
+2021-07-25 21:44:21,107 [INFO] DbMcusJson:65 - Set database path to: C:\Users\yodav\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-25 21:44:21,107 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\yodav\.stmcufinder\plugins\mcufinder/ => C:\Users\yodav\.stmcufinder\plugins\mcufinder
+2021-07-25 21:44:21,107 [INFO] DbBoardsDocs:110 - Set database path to: C:\Users\yodav\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-25 21:44:21,107 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\yodav\.stmcufinder\plugins\mcufinder/ => C:\Users\yodav\.stmcufinder\plugins\mcufinder
+2021-07-25 21:44:21,107 [INFO] DbBoardsJson:58 - Set database path to: C:\Users\yodav\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-25 21:44:21,107 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\yodav\.stmcufinder\plugins\mcufinder/ => C:\Users\yodav\.stmcufinder\plugins\mcufinder
+2021-07-25 21:44:21,107 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\yodav\.stmcufinder\plugins\mcufinder/ => C:\Users\yodav\.stmcufinder\plugins\mcufinder
+2021-07-25 21:44:21,107 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\yodav\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-07-25 21:44:21,108 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\yodav\.stmcufinder\plugins\mcufinder/ => C:\Users\yodav\.stmcufinder\plugins\mcufinder
+2021-07-25 21:44:21,108 [INFO] DbExamplesSqlite:690 - Set database path to: C:\Users\yodav\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-25 21:44:21,214 [INFO] MainPanel:204 - HeapMemory: 268435456
+2021-07-25 21:44:21,439 [INFO] DbMcusXml:74 - Set database path to: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/mcu/
+2021-07-25 21:44:21,440 [INFO] DbBoardsPdsc:56 - Set plugin database path to: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/plugins/boardmanager/
+2021-07-25 21:44:21,440 [INFO] DbMcus:258 - Set plugin images path to: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/plugins/mcufinder/images/
+2021-07-25 21:44:21,440 [INFO] DbBoards:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/plugins/mcufinder/images/
+2021-07-25 21:44:21,440 [INFO] DbExamples:333 - Set plugin images path to: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/plugins/mcufinder/images/
+2021-07-25 21:44:21,441 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\yodav\.stmcufinder\plugins\mcufinder/ => C:\Users\yodav\.stmcufinder\plugins\mcufinder
+2021-07-25 21:44:21,442 [INFO] DbMcusAds:85 - Set database path to: C:\Users\yodav\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-25 21:44:21,442 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\yodav\.stmcufinder\plugins\mcufinder/ => C:\Users\yodav\.stmcufinder\plugins\mcufinder
+2021-07-25 21:44:21,442 [INFO] DbMcusDocs:110 - Set database path to: C:\Users\yodav\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-25 21:44:21,442 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\yodav\.stmcufinder\plugins\mcufinder/ => C:\Users\yodav\.stmcufinder\plugins\mcufinder
+2021-07-25 21:44:21,442 [INFO] DbMcusJson:65 - Set database path to: C:\Users\yodav\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-25 21:44:21,442 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\yodav\.stmcufinder\plugins\mcufinder/ => C:\Users\yodav\.stmcufinder\plugins\mcufinder
+2021-07-25 21:44:21,443 [INFO] DbBoardsDocs:110 - Set database path to: C:\Users\yodav\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-25 21:44:21,443 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\yodav\.stmcufinder\plugins\mcufinder/ => C:\Users\yodav\.stmcufinder\plugins\mcufinder
+2021-07-25 21:44:21,443 [INFO] DbBoardsJson:58 - Set database path to: C:\Users\yodav\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-25 21:44:21,443 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\yodav\.stmcufinder\plugins\mcufinder/ => C:\Users\yodav\.stmcufinder\plugins\mcufinder
+2021-07-25 21:44:21,443 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\yodav\.stmcufinder\plugins\mcufinder/ => C:\Users\yodav\.stmcufinder\plugins\mcufinder
+2021-07-25 21:44:21,443 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\yodav\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-07-25 21:44:21,443 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\yodav\.stmcufinder\plugins\mcufinder/ => C:\Users\yodav\.stmcufinder\plugins\mcufinder
+2021-07-25 21:44:21,444 [INFO] DbExamplesSqlite:690 - Set database path to: C:\Users\yodav\.stmcufinder\plugins\mcufinder//mcu/
+2021-07-25 21:44:21,467 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602
+2021-07-25 21:44:21,469 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, ]
+2021-07-25 21:44:21,473 [INFO] PluginManage:292 - Check plugin analytics
+2021-07-25 21:44:21,760 [INFO] AnalyticsPlugin:233 - Accepted Software Licenses: 
+2021-07-25 21:44:21,762 [INFO] AnalyticsPlugin:235 - Accepted CMSIS Pack Licenses: 
+2021-07-25 21:44:21,762 [INFO] AnalyticsPlugin:237 - Accepted Firmware Licenses: 
+2021-07-25 21:44:21,763 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2021-07-25 21:44:21,763 [INFO] PluginManage:292 - Check plugin clock
+2021-07-25 21:44:21,792 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2021-07-25 21:44:21,793 [INFO] PluginManage:292 - Check plugin ddr
+2021-07-25 21:44:21,799 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2021-07-25 21:44:21,799 [INFO] PluginManage:292 - Check plugin filemanager
+2021-07-25 21:44:21,971 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2021-07-25 21:44:21,971 [INFO] PluginManage:292 - Check plugin ipmanager
+2021-07-25 21:44:21,983 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2021-07-25 21:44:21,983 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2021-07-25 21:44:22,003 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2021-07-25 21:44:22,003 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2021-07-25 21:44:22,035 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2021-07-25 21:44:22,035 [INFO] PluginManage:292 - Check plugin power
+2021-07-25 21:44:22,055 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2021-07-25 21:44:22,055 [INFO] PluginManage:292 - Check plugin projectmanager
+2021-07-25 21:44:22,074 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2021-07-25 21:44:22,075 [INFO] PluginManage:292 - Check plugin thirdparty
+2021-07-25 21:44:22,221 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2021-07-25 21:44:22,221 [INFO] PluginManage:292 - Check plugin tools
+2021-07-25 21:44:22,222 [WARN] IntegrityCheckThread:59 - waiting for thirdparty lock release [integrity check]
+2021-07-25 21:44:22,223 [INFO] IntegrityCheckThread:61 - entering critical section [integrity check]
+2021-07-25 21:44:22,223 [INFO] ThirdPartyUpdaterWithRetryManager:56 - Updater plugin not ready yet. [1/15]
+2021-07-25 21:44:22,225 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2021-07-25 21:44:22,225 [INFO] PluginManage:292 - Check plugin tutovideos
+2021-07-25 21:44:22,489 [INFO] PluginManage:342 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2021-07-25 21:44:22,490 [INFO] PluginManage:292 - Check plugin updater
+2021-07-25 21:44:22,509 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2021-07-25 21:44:22,509 [INFO] PluginManage:265 - PluginManage : Loaded plugins [13]
+2021-07-25 21:44:22,726 [INFO] PinOutPanel:1435 - setPackage(No Configuration,No Configuration)
+2021-07-25 21:44:22,823 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,834 [INFO] PluginManager:203 - loadIPPluginJar : add adc
+2021-07-25 21:44:22,839 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,839 [INFO] PluginManager:203 - loadIPPluginJar : add aes
+2021-07-25 21:44:22,844 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,844 [INFO] PluginManager:203 - loadIPPluginJar : add can
+2021-07-25 21:44:22,847 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,847 [INFO] PluginManager:203 - loadIPPluginJar : add comp
+2021-07-25 21:44:22,850 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,851 [INFO] PluginManager:203 - loadIPPluginJar : add cryp
+2021-07-25 21:44:22,854 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,855 [INFO] PluginManager:203 - loadIPPluginJar : add dfsdm
+2021-07-25 21:44:22,863 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,864 [INFO] PluginManager:203 - loadIPPluginJar : add dma
+2021-07-25 21:44:22,866 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,867 [INFO] PluginManager:203 - loadIPPluginJar : add fatfs
+2021-07-25 21:44:22,872 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,873 [INFO] PluginManager:203 - loadIPPluginJar : add fmc
+2021-07-25 21:44:22,883 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,884 [INFO] PluginManager:203 - loadIPPluginJar : add freertos
+2021-07-25 21:44:22,886 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,887 [INFO] PluginManager:203 - loadIPPluginJar : add genericplugin
+2021-07-25 21:44:22,890 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,891 [INFO] PluginManager:203 - loadIPPluginJar : add gfxmmu
+2021-07-25 21:44:22,910 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,910 [INFO] PluginManager:203 - loadIPPluginJar : add gic
+2021-07-25 21:44:22,917 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,918 [INFO] PluginManager:203 - loadIPPluginJar : add gpio
+2021-07-25 21:44:22,923 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,923 [INFO] PluginManager:203 - loadIPPluginJar : add gtzc
+2021-07-25 21:44:22,926 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,927 [INFO] PluginManager:203 - loadIPPluginJar : add hash
+2021-07-25 21:44:22,931 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,931 [INFO] PluginManager:203 - loadIPPluginJar : add i2c
+2021-07-25 21:44:22,935 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,935 [INFO] PluginManager:203 - loadIPPluginJar : add i2s
+2021-07-25 21:44:22,940 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,940 [INFO] PluginManager:203 - loadIPPluginJar : add ipddr
+2021-07-25 21:44:22,944 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,944 [INFO] PluginManager:203 - loadIPPluginJar : add lorawan
+2021-07-25 21:44:22,947 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,948 [INFO] PluginManager:203 - loadIPPluginJar : add ltdc
+2021-07-25 21:44:22,954 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,954 [INFO] PluginManager:203 - loadIPPluginJar : add mdma
+2021-07-25 21:44:22,960 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,961 [INFO] PluginManager:203 - loadIPPluginJar : add nvic
+2021-07-25 21:44:22,965 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,965 [INFO] PluginManager:203 - loadIPPluginJar : add opamp
+2021-07-25 21:44:22,969 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,969 [INFO] PluginManager:203 - loadIPPluginJar : add openamp
+2021-07-25 21:44:22,973 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,973 [INFO] PluginManager:203 - loadIPPluginJar : add pdm2pcm
+2021-07-25 21:44:22,982 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,984 [INFO] PluginManager:203 - loadIPPluginJar : add plateformsettings
+2021-07-25 21:44:22,986 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,987 [INFO] PluginManager:203 - loadIPPluginJar : add quadspi
+2021-07-25 21:44:22,995 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,995 [INFO] PluginManager:203 - loadIPPluginJar : add resmgrutility
+2021-07-25 21:44:22,999 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:22,999 [INFO] PluginManager:203 - loadIPPluginJar : add sai
+2021-07-25 21:44:23,004 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:23,004 [INFO] PluginManager:203 - loadIPPluginJar : add spi
+2021-07-25 21:44:23,009 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:23,010 [INFO] PluginManager:203 - loadIPPluginJar : add stm32_wpan
+2021-07-25 21:44:23,012 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:23,012 [INFO] PluginManager:203 - loadIPPluginJar : add tim
+2021-07-25 21:44:23,016 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:23,016 [INFO] PluginManager:203 - loadIPPluginJar : add touchsensing
+2021-07-25 21:44:23,020 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:23,020 [INFO] PluginManager:203 - loadIPPluginJar : add tracer_emb
+2021-07-25 21:44:23,022 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:23,022 [INFO] PluginManager:203 - loadIPPluginJar : add ts
+2021-07-25 21:44:23,025 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:23,025 [INFO] PluginManager:203 - loadIPPluginJar : add tsc
+2021-07-25 21:44:23,027 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:23,027 [INFO] PluginManager:203 - loadIPPluginJar : add ucpd
+2021-07-25 21:44:23,031 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:23,032 [INFO] PluginManager:203 - loadIPPluginJar : add usart
+2021-07-25 21:44:23,392 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-07-25 21:44:23,514 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-07-25 21:44:23,519 [INFO] DbMcusAds:132 - JSON generation date=Tue May 11 11:32:49 EDT 2021 (1620747169502)
+2021-07-25 21:44:23,520 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-07-25 21:44:23,575 [WARN] DetailPanel:315 - Failed to get advertising image, set to default
+2021-07-25 21:44:23,766 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-07-25 21:44:23,771 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-07-25 21:44:23,772 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-07-25 21:44:23,772 [WARN] DetailPanel:315 - Failed to get advertising image, set to default
+2021-07-25 21:44:23,775 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-07-25 21:44:23,834 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-07-25 21:44:23,834 [WARN] ThirdParty:796 - waiting for thirdparty lock release [close project]
+2021-07-25 21:44:25,226 [INFO] ThirdPartyUpdaterWithRetryManager:56 - Updater plugin not ready yet. [2/15]
+2021-07-25 21:44:28,229 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-07-25 21:44:28,230 [ERROR] AbstractThirdPartyUpdaterManager:153 - class java.lang.Integer cannot be cast to class java.util.List (java.lang.Integer and java.util.List are in module java.base of loader 'bootstrap')
+2021-07-25 21:44:28,230 [INFO] ThirdParty:900 - Integrity check success = false
+2021-07-25 21:44:28,232 [INFO] IntegrityCheckThread:75 - exiting critical section [integrity check]
+2021-07-25 21:44:28,232 [INFO] IntegrityCheckThread:78 - End integrity checks thread
+2021-07-25 21:44:28,232 [INFO] ThirdParty:798 - entering critical section [close project]
+2021-07-25 21:44:28,236 [INFO] ThirdParty:809 - exiting critical section [close project]
+2021-07-25 21:44:28,242 [INFO] PinOutPanel:1435 - setPackage(No Configuration,No Configuration)
+2021-07-25 21:44:28,243 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-07-25 21:44:28,255 [INFO] Updater:1002 - Updater Version found : 6.2.0
+2021-07-25 21:44:28,280 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602
+2021-07-25 21:44:28,864 [ERROR] ServerAccessManage:954 - Problem, Http access forbiden
+2021-07-25 21:44:29,828 [INFO] MainUpdater:2661 - connection check result : 10
+2021-07-25 21:44:29,829 [INFO] MainUpdater:255 - Updater Check For Update Now.
+2021-07-25 21:44:29,829 [INFO] MicroXplorer:472 - Change Database Version : DB.6.0.20
+2021-07-25 21:44:29,870 [INFO] CheckServerUpdateThread:102 - End of CheckServer Thread
+2021-07-25 21:44:29,954 [INFO] MainUpdater:2661 - connection check result : 10
+2021-07-25 21:44:29,959 [INFO] MainUpdater:2661 - connection check result : 10
+2021-07-25 21:44:30,080 [INFO] MicroXplorer:442 - Change Database Path : 
+2021-07-25 21:44:30,080 [INFO] MicroXplorer:472 - Change Database Version : DB.6.0.20
+2021-07-25 21:44:30,080 [WARN] ThirdParty:796 - waiting for thirdparty lock release [close project]
+2021-07-25 21:44:30,080 [INFO] ThirdParty:798 - entering critical section [close project]
+2021-07-25 21:44:30,081 [INFO] ThirdParty:809 - exiting critical section [close project]
+2021-07-25 21:44:30,083 [INFO] PinOutPanel:1435 - setPackage(No Configuration,No Configuration)
+2021-07-25 21:44:30,084 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 197044248 Bytes (268435456)
+2021-07-25 21:44:30,087 [INFO] MicroXplorer:442 - Change Database Path : 
+2021-07-25 21:44:30,088 [INFO] MicroXplorer:472 - Change Database Version : DB.6.0.20
+2021-07-25 21:44:30,088 [INFO] OpenFileManager:303 - Change cursor
+2021-07-25 21:44:30,109 [WARN] IntegrityCheckThread:59 - waiting for thirdparty lock release [integrity check]
+2021-07-25 21:44:30,109 [INFO] IntegrityCheckThread:61 - entering critical section [integrity check]
+2021-07-25 21:44:30,200 [WARN] PackLoader:226 - Cannot read IP mode file for RoweBots.I-CUBE-UNISONRTOS.5.5.0-4
+2021-07-25 21:44:30,221 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0
+2021-07-25 21:44:30,239 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.4.1.0
+2021-07-25 21:44:30,266 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.3.0.0
+2021-07-25 21:44:30,337 [WARN] PackLoader:226 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.2.0
+2021-07-25 21:44:30,426 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.0
+2021-07-25 21:44:30,433 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.2.0.2
+2021-07-25 21:44:30,447 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.17.0
+2021-07-25 21:44:30,455 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.2.0
+2021-07-25 21:44:30,472 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.4.0.0
+2021-07-25 21:44:30,481 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.1.0.0
+2021-07-25 21:44:30,508 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.1.0.0
+2021-07-25 21:44:30,565 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.8.3.0
+2021-07-25 21:44:30,689 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.1.0.0
+2021-07-25 21:44:30,693 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.6.0.0
+2021-07-25 21:44:30,698 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.2.0
+2021-07-25 21:44:30,704 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-GNSS1.5.2.0
+2021-07-25 21:44:30,710 [WARN] PackLoader:226 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSL.4.7.0
+2021-07-25 21:44:30,713 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.16.1
+2021-07-25 21:44:30,713 [INFO] ThirdParty:900 - Integrity check success = true
+2021-07-25 21:44:30,713 [INFO] IntegrityCheckThread:75 - exiting critical section [integrity check]
+2021-07-25 21:44:30,713 [INFO] IntegrityCheckThread:78 - End integrity checks thread
+2021-07-25 21:44:32,296 [INFO] Context:587 - Trying to add GPIOservice into a context  which must be forbidden
+2021-07-25 21:44:32,829 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0: no header file found
+2021-07-25 21:44:32,829 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0: no header file found
+2021-07-25 21:44:32,829 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0: no header file found
+2021-07-25 21:44:32,832 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,832 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,832 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,832 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,832 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,833 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,833 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,833 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,833 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,833 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,833 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,833 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,833 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,833 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,833 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,833 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,833 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,833 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,834 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,834 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,834 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,834 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,834 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,834 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,834 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,834 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,834 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-07-25 21:44:32,837 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.1.0: no header file found
+2021-07-25 21:44:32,838 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.4.1.0: no header file found
+2021-07-25 21:44:32,838 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.1.0: no header file found
+2021-07-25 21:44:32,841 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.0.0: no header file found
+2021-07-25 21:44:32,841 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.4.0.0: no header file found
+2021-07-25 21:44:32,841 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.0.0: no header file found
+2021-07-25 21:44:32,846 [WARN] ApiManager:294 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.0.0: no header file found
+2021-07-25 21:44:32,846 [WARN] ApiManager:294 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.0.0: no header file found
+2021-07-25 21:44:33,002 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.8.3.0: no header file found
+2021-07-25 21:44:33,002 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.8.3.0: no header file found
+2021-07-25 21:44:33,002 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.8.3.0: no header file found
+2021-07-25 21:44:33,009 [INFO] RtosManager:470 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2021-07-25 21:44:33,009 [INFO] RtosManager:470 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2021-07-25 21:44:33,009 [INFO] RtosManager:470 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2021-07-25 21:44:33,009 [INFO] RtosManager:470 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2021-07-25 21:44:33,010 [WARN] ModelIntegratedComponent:182 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2021-07-25 21:44:33,017 [WARN] ApiManager:294 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2021-07-25 21:44:33,017 [WARN] ApiManager:294 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2021-07-25 21:44:33,017 [WARN] ApiManager:294 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2021-07-25 21:44:33,018 [WARN] ApiManager:294 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.0: no header file found
+2021-07-25 21:44:33,018 [WARN] ApiManager:294 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.2: no header file found
+2021-07-25 21:44:33,019 [WARN] ApiManager:294 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.2.0: no header file found
+2021-07-25 21:44:33,374 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (ChannelTS) has invalid value (ADC_CHANNEL_TEMPSENSOR)
+2021-07-25 21:44:33,374 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (ADC1) currently not set
+2021-07-25 21:44:33,374 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Request) has Id (ADC1) currently not set
+2021-07-25 21:44:33,374 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (ADC1) currently not set
+2021-07-25 21:44:33,374 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (ADC1) currently not set
+2021-07-25 21:44:33,374 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (ADC1) currently not set
+2021-07-25 21:44:33,375 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (ADC1) currently not set
+2021-07-25 21:44:33,375 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (ADC1) currently not set
+2021-07-25 21:44:33,375 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (ADC1) currently not set
+2021-07-25 21:44:33,375 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (ADC1) currently not set
+2021-07-25 21:44:33,376 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (48CLKFreq_Value)
+2021-07-25 21:44:33,377 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2021-07-25 21:44:33,377 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (HSI16_VALUE)
+2021-07-25 21:44:33,378 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (LPTIMFreq_Value)
+2021-07-25 21:44:33,378 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (LPUARTFreq_Value)
+2021-07-25 21:44:33,378 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (MCOPinFreq_Value)
+2021-07-25 21:44:33,378 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (PLLCLKFreq_Value)
+2021-07-25 21:44:33,378 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (PLLMUL)
+2021-07-25 21:44:33,379 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (RTCHSEDivFreq_Value)
+2021-07-25 21:44:33,379 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIMFreq_Value)
+2021-07-25 21:44:33,379 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TimerFreq_Value)
+2021-07-25 21:44:33,380 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (USBFreq_Value) has invalid value (32000000)
+2021-07-25 21:44:33,557 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 282418696 Bytes (386924544)
+2021-07-25 21:44:33,558 [INFO] DbMcusXml:100 - Load MCU database from C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/mcu/families.xml
+2021-07-25 21:44:34,331 [INFO] DbMcusJson:94 - JSON generation date=Mon Jun 07 04:53:21 EDT 2021 (1623056001)
+2021-07-25 21:44:34,975 [INFO] DbMcus:175 - Found 1906 MCUs (1866 are supported by CubeMX, 1866 are visible in CubeMX)
+2021-07-25 21:44:34,978 [INFO] ApiDb:251 - Load user favorites file C:\Users\yodav/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2021-07-25 21:44:34,978 [INFO] ApiDb:255 - User favorites MCUs=[]
+2021-07-25 21:44:34,978 [INFO] DbMcus:187 - Set 0 / 0 favorites MCUs
+2021-07-25 21:44:34,988 [WARN] ThirdParty:762 - waiting for thirdparty lock release [change project]
+2021-07-25 21:44:34,988 [INFO] ThirdParty:764 - entering critical section [change project]
+2021-07-25 21:44:34,988 [INFO] ThirdParty:952 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2021-07-25 21:44:34,988 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.0.0
+2021-07-25 21:44:34,988 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2021-07-25 21:44:34,988 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2021-07-25 21:44:34,988 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2021-07-25 21:44:34,988 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2021-07-25 21:44:34,988 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2021-07-25 21:44:34,988 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.1.0
+2021-07-25 21:44:34,988 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.0.0
+2021-07-25 21:44:34,989 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 1.0.0
+2021-07-25 21:44:34,989 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 1.0.0
+2021-07-25 21:44:34,989 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2021-07-25 21:44:34,989 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.0.0
+2021-07-25 21:44:34,989 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.3.0
+2021-07-25 21:44:34,989 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 1.0.0
+2021-07-25 21:44:34,989 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2021-07-25 21:44:34,989 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2021-07-25 21:44:34,989 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 6.0.0
+2021-07-25 21:44:34,989 [INFO] ThirdParty:952 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.2.0
+2021-07-25 21:44:34,989 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.2.0
+2021-07-25 21:44:34,989 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.2.0
+2021-07-25 21:44:34,989 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2021-07-25 21:44:34,989 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2021-07-25 21:44:34,989 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.0
+2021-07-25 21:44:34,990 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2021-07-25 21:44:34,990 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.2
+2021-07-25 21:44:34,990 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.17.0
+2021-07-25 21:44:34,990 [INFO] ThirdParty:952 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 4.7.0
+2021-07-25 21:44:34,990 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.16.1
+2021-07-25 21:44:34,990 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2021-07-25 21:44:34,990 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2021-07-25 21:44:34,990 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2021-07-25 21:44:34,990 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.0
+2021-07-25 21:44:34,990 [INFO] ThirdParty:770 - exiting critical section [change project]
+2021-07-25 21:44:35,342 [INFO] PinOutPanel:1435 - setPackage(No Configuration,No Configuration)
+2021-07-25 21:44:35,343 [INFO] PinOutPanel:1435 - setPackage(STM32L432KCUx,UFQFPN32)
+2021-07-25 21:44:35,850 [INFO] UtilMem:74 - Before build in PCC Used Memory: 351712752 Bytes (602931200)
+2021-07-25 21:44:36,460 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/yodav/.stm32cubemx/plugins/power
+2021-07-25 21:44:36,493 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/yodav/.stm32cubemx/plugins/power
+2021-07-25 21:44:36,572 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/yodav/.stm32cubemx/plugins/power
+2021-07-25 21:44:36,581 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/yodav/.stm32cubemx/plugins/power
+2021-07-25 21:44:36,784 [INFO] UtilMem:74 - After build in PCC Used Memory: 301065152 Bytes (602931200)
+2021-07-25 21:44:36,802 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,803 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,803 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,803 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,803 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,803 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,803 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,804 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,804 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,804 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,804 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,804 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,805 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,805 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,805 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,805 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,806 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,806 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,806 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,806 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,807 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,807 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,807 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,808 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,808 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,808 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,809 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,809 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,809 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,810 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,810 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,810 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,811 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,811 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,811 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,812 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,812 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,813 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,813 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,814 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,814 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-07-25 21:44:36,847 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2021-07-25 21:44:36,950 [INFO] OpenFileManager:323 - Restore cursor
+2021-07-25 22:03:10,394 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 370229760 Bytes (602931200)
+2021-07-25 22:03:11,968 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 387006976 Bytes (602931200)
+2021-07-25 22:03:15,286 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 429524816 Bytes (602931200)
+2021-07-25 22:03:15,855 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-07-25 22:03:15,855 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-25 22:03:15,855 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: DMA
+2021-07-25 22:03:15,855 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8L4
+2021-07-25 22:03:15,856 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-07-25 22:03:15,856 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-07-25 22:03:15,856 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: ADC
+2021-07-25 22:03:15,856 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-07-25 22:03:15,858 [INFO] CodeGenerator:641 - code generatio: config db path: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\
+2021-07-25 22:03:16,300 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\license.tmp_save
+2021-07-25 22:03:16,679 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\license.tmp
+2021-07-25 22:03:16,868 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\gpio.tmp_save
+2021-07-25 22:03:16,937 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\gpio.tmp
+2021-07-25 22:03:17,002 [ERROR] IPConfigManager:1461 - ERROR: the RefConfig ADC_InternalChannelConfig is not available in your config.xml file
+2021-07-25 22:03:17,004 [ERROR] IPConfigManager:1461 - ERROR: the RefConfig ADC_EnableInternalRegulator is not available in your config.xml file
+2021-07-25 22:03:17,739 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-25 22:03:17,740 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-25 22:03:17,785 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma.tmp_save
+2021-07-25 22:03:17,831 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma.tmp
+2021-07-25 22:03:17,835 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma_GV.tmp_save
+2021-07-25 22:03:17,875 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma_GV.tmp
+2021-07-25 22:03:17,876 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-25 22:03:17,878 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-25 22:03:17,890 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_it.c_save
+2021-07-25 22:03:17,985 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_it.c
+2021-07-25 22:03:17,993 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_it.h_save
+2021-07-25 22:03:18,041 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_it.h
+2021-07-25 22:03:18,058 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_hal_msp.c_save
+2021-07-25 22:03:18,157 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_hal_msp.c
+2021-07-25 22:03:18,162 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\system.tmp_save
+2021-07-25 22:03:18,202 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\system.tmp
+2021-07-25 22:03:18,212 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_hal_conf.h_save
+2021-07-25 22:03:18,281 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_hal_conf.h
+2021-07-25 22:03:18,317 [WARN] IPConfigManager:2976 - IP not found : TIM
+2021-07-25 22:03:18,319 [WARN] CodeGenerator:3191 - IP not found : null
+2021-07-25 22:03:18,328 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\main.h_save
+2021-07-25 22:03:18,413 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\main.h
+2021-07-25 22:03:18,421 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\main.c_save
+2021-07-25 22:03:18,548 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\main.c
+2021-07-25 22:03:19,520 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 271mS.
+2021-07-25 22:03:19,526 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-07-25 22:03:19,944 [INFO] ConfigFileManager:1242 - The Die is : DIE435
+2021-07-25 22:03:19,964 [INFO] ApiDbMcu:458 - Load IP Config File for FATFS
+2021-07-25 22:03:19,991 [INFO] ApiDbMcu:458 - Load IP Config File for FREERTOS
+2021-07-25 22:03:20,139 [INFO] ApiDbMcu:458 - Load IP Config File for TOUCHSENSING
+2021-07-25 22:03:20,165 [INFO] ApiDbMcu:458 - Load IP Config File for USB_DEVICE
+2021-07-25 22:03:22,254 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 2728mS.
+2021-07-25 22:03:22,255 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-25 22:03:22,259 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-25 22:09:18,128 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 435967992 Bytes (826277888)
+2021-07-25 22:09:19,226 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 451696632 Bytes (826277888)
+2021-07-25 22:09:21,064 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 494166008 Bytes (826277888)
+2021-07-25 22:09:21,405 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-07-25 22:09:21,405 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-25 22:09:21,405 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: DMA
+2021-07-25 22:09:21,405 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8L4
+2021-07-25 22:09:21,406 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-07-25 22:09:21,406 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-07-25 22:09:21,406 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: ADC
+2021-07-25 22:09:21,406 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-07-25 22:09:21,407 [INFO] CodeGenerator:641 - code generatio: config db path: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\
+2021-07-25 22:09:21,505 [INFO] Argument:278 - Argument : hdmavalue: null
+2021-07-25 22:09:21,505 [INFO] Argument:280 - 	 sub Args: 
+2021-07-25 22:09:21,506 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Channel1
+2021-07-25 22:09:21,506 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Channel1
+2021-07-25 22:09:21,506 [INFO] Argument:278 - Argument : Initvalue: null
+2021-07-25 22:09:21,506 [INFO] Argument:280 - 	 sub Args: 
+2021-07-25 22:09:21,506 [INFO] Argument:278 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-25 22:09:21,506 [INFO] Argument:288 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-25 22:09:21,506 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-25 22:09:21,506 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-25 22:09:21,506 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-25 22:09:21,506 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-25 22:09:21,506 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-25 22:09:21,506 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-25 22:09:21,507 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-25 22:09:21,507 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-25 22:09:21,507 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-25 22:09:21,507 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-25 22:09:21,507 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-25 22:09:21,507 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-25 22:09:21,507 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-25 22:09:21,507 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-25 22:09:21,507 [INFO] Argument:278 - Argument : Lockvalue: null
+2021-07-25 22:09:21,507 [INFO] Argument:288 - Argument : Lockvalue: null
+2021-07-25 22:09:21,508 [INFO] Argument:278 - Argument : Statevalue: null
+2021-07-25 22:09:21,508 [INFO] Argument:288 - Argument : Statevalue: null
+2021-07-25 22:09:21,508 [INFO] Argument:278 - Argument : Parentvalue: null
+2021-07-25 22:09:21,508 [INFO] Argument:288 - Argument : Parentvalue: null
+2021-07-25 22:09:21,508 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2021-07-25 22:09:21,508 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2021-07-25 22:09:21,508 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-25 22:09:21,508 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-25 22:09:21,508 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2021-07-25 22:09:21,508 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2021-07-25 22:09:21,508 [INFO] Argument:278 - Argument : XferAbortCallbackvalue: null
+2021-07-25 22:09:21,508 [INFO] Argument:288 - Argument : XferAbortCallbackvalue: null
+2021-07-25 22:09:21,509 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2021-07-25 22:09:21,509 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2021-07-25 22:09:21,509 [INFO] Argument:278 - Argument : DmaBaseAddressvalue: null
+2021-07-25 22:09:21,509 [INFO] Argument:288 - Argument : DmaBaseAddressvalue: null
+2021-07-25 22:09:21,509 [INFO] Argument:278 - Argument : ChannelIndexvalue: null
+2021-07-25 22:09:21,509 [INFO] Argument:288 - Argument : ChannelIndexvalue: null
+2021-07-25 22:09:21,509 [INFO] Argument:278 - Argument : hdmavalue: null
+2021-07-25 22:09:21,509 [INFO] Argument:280 - 	 sub Args: 
+2021-07-25 22:09:21,509 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Channel1
+2021-07-25 22:09:21,509 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Channel1
+2021-07-25 22:09:21,509 [INFO] Argument:278 - Argument : Initvalue: null
+2021-07-25 22:09:21,509 [INFO] Argument:280 - 	 sub Args: 
+2021-07-25 22:09:21,510 [INFO] Argument:278 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-25 22:09:21,510 [INFO] Argument:288 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-25 22:09:21,510 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-25 22:09:21,510 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-25 22:09:21,510 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-25 22:09:21,510 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-25 22:09:21,511 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-25 22:09:21,511 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-25 22:09:21,511 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-25 22:09:21,511 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-25 22:09:21,511 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-25 22:09:21,511 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-25 22:09:21,511 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-25 22:09:21,511 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-25 22:09:21,512 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-25 22:09:21,512 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-25 22:09:21,512 [INFO] Argument:278 - Argument : Lockvalue: null
+2021-07-25 22:09:21,512 [INFO] Argument:288 - Argument : Lockvalue: null
+2021-07-25 22:09:21,513 [INFO] Argument:278 - Argument : Statevalue: null
+2021-07-25 22:09:21,513 [INFO] Argument:288 - Argument : Statevalue: null
+2021-07-25 22:09:21,513 [INFO] Argument:278 - Argument : Parentvalue: null
+2021-07-25 22:09:21,513 [INFO] Argument:288 - Argument : Parentvalue: null
+2021-07-25 22:09:21,513 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2021-07-25 22:09:21,513 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2021-07-25 22:09:21,513 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-25 22:09:21,513 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-25 22:09:21,513 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2021-07-25 22:09:21,513 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2021-07-25 22:09:21,514 [INFO] Argument:278 - Argument : XferAbortCallbackvalue: null
+2021-07-25 22:09:21,514 [INFO] Argument:288 - Argument : XferAbortCallbackvalue: null
+2021-07-25 22:09:21,514 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2021-07-25 22:09:21,514 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2021-07-25 22:09:21,514 [INFO] Argument:278 - Argument : DmaBaseAddressvalue: null
+2021-07-25 22:09:21,514 [INFO] Argument:288 - Argument : DmaBaseAddressvalue: null
+2021-07-25 22:09:21,514 [INFO] Argument:278 - Argument : ChannelIndexvalue: null
+2021-07-25 22:09:21,514 [INFO] Argument:288 - Argument : ChannelIndexvalue: null
+2021-07-25 22:09:21,514 [INFO] Argument:278 - Argument : pSyncConfigvalue: null
+2021-07-25 22:09:21,514 [INFO] Argument:280 - 	 sub Args: 
+2021-07-25 22:09:21,514 [INFO] Argument:278 - Argument : SyncSignalIDvalue: null
+2021-07-25 22:09:21,514 [INFO] Argument:288 - Argument : SyncSignalIDvalue: null
+2021-07-25 22:09:21,514 [INFO] Argument:278 - Argument : SyncPolarityvalue: null
+2021-07-25 22:09:21,515 [INFO] Argument:288 - Argument : SyncPolarityvalue: null
+2021-07-25 22:09:21,515 [INFO] Argument:278 - Argument : SyncEnablevalue: null
+2021-07-25 22:09:21,515 [INFO] Argument:288 - Argument : SyncEnablevalue: null
+2021-07-25 22:09:21,515 [INFO] Argument:278 - Argument : EventEnablevalue: null
+2021-07-25 22:09:21,515 [INFO] Argument:288 - Argument : EventEnablevalue: null
+2021-07-25 22:09:21,515 [INFO] Argument:278 - Argument : RequestNumbervalue: null
+2021-07-25 22:09:21,515 [INFO] Argument:288 - Argument : RequestNumbervalue: null
+2021-07-25 22:09:21,855 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\license.tmp_save
+2021-07-25 22:09:21,938 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\license.tmp
+2021-07-25 22:09:22,051 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\gpio.tmp_save
+2021-07-25 22:09:22,100 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\gpio.tmp
+2021-07-25 22:09:22,126 [ERROR] IPConfigManager:1461 - ERROR: the RefConfig ADC_InternalChannelConfig is not available in your config.xml file
+2021-07-25 22:09:22,127 [ERROR] IPConfigManager:1461 - ERROR: the RefConfig ADC_EnableInternalRegulator is not available in your config.xml file
+2021-07-25 22:09:22,837 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-25 22:09:22,839 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-25 22:09:22,888 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma.tmp_save
+2021-07-25 22:09:22,954 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma.tmp
+2021-07-25 22:09:22,957 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma_GV.tmp_save
+2021-07-25 22:09:23,009 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma_GV.tmp
+2021-07-25 22:09:23,010 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-25 22:09:23,012 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-25 22:09:23,024 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_it.c_save
+2021-07-25 22:09:23,133 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_it.c
+2021-07-25 22:09:23,138 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_it.h_save
+2021-07-25 22:09:23,189 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_it.h
+2021-07-25 22:09:23,199 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_hal_msp.c_save
+2021-07-25 22:09:23,288 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_hal_msp.c
+2021-07-25 22:09:23,292 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\system.tmp_save
+2021-07-25 22:09:23,331 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\system.tmp
+2021-07-25 22:09:23,340 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_hal_conf.h_save
+2021-07-25 22:09:23,395 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_hal_conf.h
+2021-07-25 22:09:23,428 [WARN] IPConfigManager:2976 - IP not found : TIM
+2021-07-25 22:09:23,428 [WARN] CodeGenerator:3191 - IP not found : null
+2021-07-25 22:09:23,436 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\main.h_save
+2021-07-25 22:09:23,486 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\main.h
+2021-07-25 22:09:23,491 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\main.c_save
+2021-07-25 22:09:23,603 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\main.c
+2021-07-25 22:09:24,326 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 117mS.
+2021-07-25 22:09:24,331 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-07-25 22:09:24,699 [INFO] ConfigFileManager:1242 - The Die is : DIE435
+2021-07-25 22:09:26,492 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 2161mS.
+2021-07-25 22:09:26,493 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 1mS.
+2021-07-25 22:09:26,496 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-25 22:36:43,078 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 392408768 Bytes (918552576)
+2021-07-25 22:36:48,108 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 413380288 Bytes (918552576)
+2021-07-25 22:36:49,662 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 458469056 Bytes (918552576)
+2021-07-25 22:36:50,028 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-07-25 22:36:50,029 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-25 22:36:50,029 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: DMA
+2021-07-25 22:36:50,029 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8L4
+2021-07-25 22:36:50,029 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-07-25 22:36:50,029 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-07-25 22:36:50,029 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: ADC
+2021-07-25 22:36:50,030 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-07-25 22:36:50,031 [INFO] CodeGenerator:641 - code generatio: config db path: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\
+2021-07-25 22:36:50,042 [INFO] Argument:278 - Argument : hdmavalue: null
+2021-07-25 22:36:50,043 [INFO] Argument:280 - 	 sub Args: 
+2021-07-25 22:36:50,043 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Channel1
+2021-07-25 22:36:50,043 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Channel1
+2021-07-25 22:36:50,043 [INFO] Argument:278 - Argument : Initvalue: null
+2021-07-25 22:36:50,043 [INFO] Argument:280 - 	 sub Args: 
+2021-07-25 22:36:50,043 [INFO] Argument:278 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-25 22:36:50,043 [INFO] Argument:288 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-25 22:36:50,043 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-25 22:36:50,043 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-25 22:36:50,043 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-25 22:36:50,043 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-25 22:36:50,044 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-25 22:36:50,044 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-25 22:36:50,044 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-25 22:36:50,044 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-25 22:36:50,044 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-25 22:36:50,044 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-25 22:36:50,044 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-25 22:36:50,045 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-25 22:36:50,045 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-25 22:36:50,045 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-25 22:36:50,045 [INFO] Argument:278 - Argument : Lockvalue: null
+2021-07-25 22:36:50,045 [INFO] Argument:288 - Argument : Lockvalue: null
+2021-07-25 22:36:50,045 [INFO] Argument:278 - Argument : Statevalue: null
+2021-07-25 22:36:50,045 [INFO] Argument:288 - Argument : Statevalue: null
+2021-07-25 22:36:50,045 [INFO] Argument:278 - Argument : Parentvalue: null
+2021-07-25 22:36:50,046 [INFO] Argument:288 - Argument : Parentvalue: null
+2021-07-25 22:36:50,046 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2021-07-25 22:36:50,046 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2021-07-25 22:36:50,046 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-25 22:36:50,046 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-25 22:36:50,046 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2021-07-25 22:36:50,046 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2021-07-25 22:36:50,047 [INFO] Argument:278 - Argument : XferAbortCallbackvalue: null
+2021-07-25 22:36:50,047 [INFO] Argument:288 - Argument : XferAbortCallbackvalue: null
+2021-07-25 22:36:50,047 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2021-07-25 22:36:50,047 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2021-07-25 22:36:50,047 [INFO] Argument:278 - Argument : DmaBaseAddressvalue: null
+2021-07-25 22:36:50,047 [INFO] Argument:288 - Argument : DmaBaseAddressvalue: null
+2021-07-25 22:36:50,047 [INFO] Argument:278 - Argument : ChannelIndexvalue: null
+2021-07-25 22:36:50,047 [INFO] Argument:288 - Argument : ChannelIndexvalue: null
+2021-07-25 22:36:50,048 [INFO] Argument:278 - Argument : hdmavalue: null
+2021-07-25 22:36:50,048 [INFO] Argument:280 - 	 sub Args: 
+2021-07-25 22:36:50,048 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Channel1
+2021-07-25 22:36:50,048 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Channel1
+2021-07-25 22:36:50,048 [INFO] Argument:278 - Argument : Initvalue: null
+2021-07-25 22:36:50,048 [INFO] Argument:280 - 	 sub Args: 
+2021-07-25 22:36:50,049 [INFO] Argument:278 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-25 22:36:50,049 [INFO] Argument:288 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-25 22:36:50,049 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-25 22:36:50,049 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-25 22:36:50,063 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-25 22:36:50,063 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-25 22:36:50,063 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-25 22:36:50,064 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-25 22:36:50,064 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-25 22:36:50,064 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-25 22:36:50,064 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-25 22:36:50,064 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-25 22:36:50,064 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-25 22:36:50,064 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-25 22:36:50,065 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-25 22:36:50,065 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-25 22:36:50,065 [INFO] Argument:278 - Argument : Lockvalue: null
+2021-07-25 22:36:50,065 [INFO] Argument:288 - Argument : Lockvalue: null
+2021-07-25 22:36:50,065 [INFO] Argument:278 - Argument : Statevalue: null
+2021-07-25 22:36:50,065 [INFO] Argument:288 - Argument : Statevalue: null
+2021-07-25 22:36:50,065 [INFO] Argument:278 - Argument : Parentvalue: null
+2021-07-25 22:36:50,066 [INFO] Argument:288 - Argument : Parentvalue: null
+2021-07-25 22:36:50,066 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2021-07-25 22:36:50,066 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2021-07-25 22:36:50,066 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-25 22:36:50,066 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-25 22:36:50,066 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2021-07-25 22:36:50,066 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2021-07-25 22:36:50,066 [INFO] Argument:278 - Argument : XferAbortCallbackvalue: null
+2021-07-25 22:36:50,067 [INFO] Argument:288 - Argument : XferAbortCallbackvalue: null
+2021-07-25 22:36:50,067 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2021-07-25 22:36:50,067 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2021-07-25 22:36:50,067 [INFO] Argument:278 - Argument : DmaBaseAddressvalue: null
+2021-07-25 22:36:50,067 [INFO] Argument:288 - Argument : DmaBaseAddressvalue: null
+2021-07-25 22:36:50,067 [INFO] Argument:278 - Argument : ChannelIndexvalue: null
+2021-07-25 22:36:50,067 [INFO] Argument:288 - Argument : ChannelIndexvalue: null
+2021-07-25 22:36:50,068 [INFO] Argument:278 - Argument : pSyncConfigvalue: null
+2021-07-25 22:36:50,068 [INFO] Argument:280 - 	 sub Args: 
+2021-07-25 22:36:50,068 [INFO] Argument:278 - Argument : SyncSignalIDvalue: null
+2021-07-25 22:36:50,068 [INFO] Argument:288 - Argument : SyncSignalIDvalue: null
+2021-07-25 22:36:50,068 [INFO] Argument:278 - Argument : SyncPolarityvalue: null
+2021-07-25 22:36:50,068 [INFO] Argument:288 - Argument : SyncPolarityvalue: null
+2021-07-25 22:36:50,068 [INFO] Argument:278 - Argument : SyncEnablevalue: null
+2021-07-25 22:36:50,068 [INFO] Argument:288 - Argument : SyncEnablevalue: null
+2021-07-25 22:36:50,069 [INFO] Argument:278 - Argument : EventEnablevalue: null
+2021-07-25 22:36:50,069 [INFO] Argument:288 - Argument : EventEnablevalue: null
+2021-07-25 22:36:50,069 [INFO] Argument:278 - Argument : RequestNumbervalue: null
+2021-07-25 22:36:50,069 [INFO] Argument:288 - Argument : RequestNumbervalue: null
+2021-07-25 22:36:50,328 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\license.tmp_save
+2021-07-25 22:36:50,433 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\license.tmp
+2021-07-25 22:36:50,591 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\gpio.tmp_save
+2021-07-25 22:36:50,647 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\gpio.tmp
+2021-07-25 22:36:50,672 [ERROR] IPConfigManager:1461 - ERROR: the RefConfig ADC_InternalChannelConfig is not available in your config.xml file
+2021-07-25 22:36:50,673 [ERROR] IPConfigManager:1461 - ERROR: the RefConfig ADC_EnableInternalRegulator is not available in your config.xml file
+2021-07-25 22:36:51,555 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-25 22:36:51,556 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-25 22:36:51,613 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma.tmp_save
+2021-07-25 22:36:51,657 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma.tmp
+2021-07-25 22:36:51,660 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma_GV.tmp_save
+2021-07-25 22:36:51,702 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma_GV.tmp
+2021-07-25 22:36:51,703 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-25 22:36:51,705 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-25 22:36:51,716 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_it.c_save
+2021-07-25 22:36:51,810 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_it.c
+2021-07-25 22:36:51,816 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_it.h_save
+2021-07-25 22:36:51,885 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_it.h
+2021-07-25 22:36:51,900 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_hal_msp.c_save
+2021-07-25 22:36:51,999 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_hal_msp.c
+2021-07-25 22:36:52,002 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\system.tmp_save
+2021-07-25 22:36:52,042 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\system.tmp
+2021-07-25 22:36:52,051 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_hal_conf.h_save
+2021-07-25 22:36:52,112 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_hal_conf.h
+2021-07-25 22:36:52,144 [WARN] IPConfigManager:2976 - IP not found : TIM
+2021-07-25 22:36:52,145 [WARN] CodeGenerator:3191 - IP not found : null
+2021-07-25 22:36:52,154 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\main.h_save
+2021-07-25 22:36:52,208 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\main.h
+2021-07-25 22:36:52,213 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\main.c_save
+2021-07-25 22:36:52,330 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\main.c
+2021-07-25 22:36:53,082 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 143mS.
+2021-07-25 22:36:53,089 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-07-25 22:36:53,383 [INFO] ConfigFileManager:1242 - The Die is : DIE435
+2021-07-25 22:36:55,138 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 2049mS.
+2021-07-25 22:36:55,139 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-25 22:36:55,143 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-25 22:45:37,423 [INFO] DbMcusDocs:143 - JSON generation date=Mon Jun 07 04:53:21 EDT 2021 (1623056001)
+2021-07-25 22:45:37,680 [INFO] DbMcusDocs:79 - Found 669 MCUs documents
+2021-07-25 22:49:08,190 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,482x196,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-07-25 22:49:25,561 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-07-25 22:49:37,602 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-07-25 22:50:09,816 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,482x196,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-07-25 22:50:55,089 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 652023360 Bytes (925892608)
+2021-07-25 22:50:57,241 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 667225664 Bytes (925892608)
+2021-07-25 22:50:59,093 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 773658176 Bytes (925892608)
+2021-07-25 22:50:59,452 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-07-25 22:50:59,453 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-25 22:50:59,453 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM6_7L4
+2021-07-25 22:50:59,453 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: DMA
+2021-07-25 22:50:59,453 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8L4
+2021-07-25 22:50:59,453 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-07-25 22:50:59,453 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-07-25 22:50:59,453 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: ADC
+2021-07-25 22:50:59,453 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-07-25 22:50:59,454 [INFO] CodeGenerator:641 - code generatio: config db path: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\
+2021-07-25 22:50:59,465 [INFO] Argument:278 - Argument : hdmavalue: null
+2021-07-25 22:50:59,465 [INFO] Argument:280 - 	 sub Args: 
+2021-07-25 22:50:59,465 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Channel1
+2021-07-25 22:50:59,465 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Channel1
+2021-07-25 22:50:59,465 [INFO] Argument:278 - Argument : Initvalue: null
+2021-07-25 22:50:59,465 [INFO] Argument:280 - 	 sub Args: 
+2021-07-25 22:50:59,466 [INFO] Argument:278 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-25 22:50:59,466 [INFO] Argument:288 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-25 22:50:59,466 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-25 22:50:59,466 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-25 22:50:59,466 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-25 22:50:59,466 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-25 22:50:59,466 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-25 22:50:59,466 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-25 22:50:59,467 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-25 22:50:59,467 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-25 22:50:59,467 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-25 22:50:59,467 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-25 22:50:59,467 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-25 22:50:59,467 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-25 22:50:59,467 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-25 22:50:59,467 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-25 22:50:59,467 [INFO] Argument:278 - Argument : Lockvalue: null
+2021-07-25 22:50:59,467 [INFO] Argument:288 - Argument : Lockvalue: null
+2021-07-25 22:50:59,467 [INFO] Argument:278 - Argument : Statevalue: null
+2021-07-25 22:50:59,467 [INFO] Argument:288 - Argument : Statevalue: null
+2021-07-25 22:50:59,468 [INFO] Argument:278 - Argument : Parentvalue: null
+2021-07-25 22:50:59,468 [INFO] Argument:288 - Argument : Parentvalue: null
+2021-07-25 22:50:59,468 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2021-07-25 22:50:59,468 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2021-07-25 22:50:59,468 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-25 22:50:59,468 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-25 22:50:59,468 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2021-07-25 22:50:59,468 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2021-07-25 22:50:59,468 [INFO] Argument:278 - Argument : XferAbortCallbackvalue: null
+2021-07-25 22:50:59,468 [INFO] Argument:288 - Argument : XferAbortCallbackvalue: null
+2021-07-25 22:50:59,468 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2021-07-25 22:50:59,468 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2021-07-25 22:50:59,468 [INFO] Argument:278 - Argument : DmaBaseAddressvalue: null
+2021-07-25 22:50:59,469 [INFO] Argument:288 - Argument : DmaBaseAddressvalue: null
+2021-07-25 22:50:59,469 [INFO] Argument:278 - Argument : ChannelIndexvalue: null
+2021-07-25 22:50:59,469 [INFO] Argument:288 - Argument : ChannelIndexvalue: null
+2021-07-25 22:50:59,469 [INFO] Argument:278 - Argument : hdmavalue: null
+2021-07-25 22:50:59,469 [INFO] Argument:280 - 	 sub Args: 
+2021-07-25 22:50:59,469 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Channel1
+2021-07-25 22:50:59,469 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Channel1
+2021-07-25 22:50:59,469 [INFO] Argument:278 - Argument : Initvalue: null
+2021-07-25 22:50:59,469 [INFO] Argument:280 - 	 sub Args: 
+2021-07-25 22:50:59,469 [INFO] Argument:278 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-25 22:50:59,469 [INFO] Argument:288 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-25 22:50:59,469 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-25 22:50:59,469 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-25 22:50:59,470 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-25 22:50:59,470 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-25 22:50:59,470 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-25 22:50:59,470 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-25 22:50:59,470 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-25 22:50:59,470 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-25 22:50:59,470 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-25 22:50:59,470 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-25 22:50:59,470 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-25 22:50:59,470 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-25 22:50:59,470 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-25 22:50:59,470 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-25 22:50:59,470 [INFO] Argument:278 - Argument : Lockvalue: null
+2021-07-25 22:50:59,470 [INFO] Argument:288 - Argument : Lockvalue: null
+2021-07-25 22:50:59,470 [INFO] Argument:278 - Argument : Statevalue: null
+2021-07-25 22:50:59,470 [INFO] Argument:288 - Argument : Statevalue: null
+2021-07-25 22:50:59,471 [INFO] Argument:278 - Argument : Parentvalue: null
+2021-07-25 22:50:59,471 [INFO] Argument:288 - Argument : Parentvalue: null
+2021-07-25 22:50:59,471 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2021-07-25 22:50:59,471 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2021-07-25 22:50:59,471 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-25 22:50:59,471 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-25 22:50:59,471 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2021-07-25 22:50:59,471 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2021-07-25 22:50:59,471 [INFO] Argument:278 - Argument : XferAbortCallbackvalue: null
+2021-07-25 22:50:59,471 [INFO] Argument:288 - Argument : XferAbortCallbackvalue: null
+2021-07-25 22:50:59,471 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2021-07-25 22:50:59,471 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2021-07-25 22:50:59,471 [INFO] Argument:278 - Argument : DmaBaseAddressvalue: null
+2021-07-25 22:50:59,471 [INFO] Argument:288 - Argument : DmaBaseAddressvalue: null
+2021-07-25 22:50:59,471 [INFO] Argument:278 - Argument : ChannelIndexvalue: null
+2021-07-25 22:50:59,471 [INFO] Argument:288 - Argument : ChannelIndexvalue: null
+2021-07-25 22:50:59,472 [INFO] Argument:278 - Argument : pSyncConfigvalue: null
+2021-07-25 22:50:59,472 [INFO] Argument:280 - 	 sub Args: 
+2021-07-25 22:50:59,472 [INFO] Argument:278 - Argument : SyncSignalIDvalue: null
+2021-07-25 22:50:59,472 [INFO] Argument:288 - Argument : SyncSignalIDvalue: null
+2021-07-25 22:50:59,472 [INFO] Argument:278 - Argument : SyncPolarityvalue: null
+2021-07-25 22:50:59,472 [INFO] Argument:288 - Argument : SyncPolarityvalue: null
+2021-07-25 22:50:59,472 [INFO] Argument:278 - Argument : SyncEnablevalue: null
+2021-07-25 22:50:59,472 [INFO] Argument:288 - Argument : SyncEnablevalue: null
+2021-07-25 22:50:59,472 [INFO] Argument:278 - Argument : EventEnablevalue: null
+2021-07-25 22:50:59,472 [INFO] Argument:288 - Argument : EventEnablevalue: null
+2021-07-25 22:50:59,472 [INFO] Argument:278 - Argument : RequestNumbervalue: null
+2021-07-25 22:50:59,472 [INFO] Argument:288 - Argument : RequestNumbervalue: null
+2021-07-25 22:50:59,727 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\license.tmp_save
+2021-07-25 22:50:59,826 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\license.tmp
+2021-07-25 22:50:59,948 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\gpio.tmp_save
+2021-07-25 22:50:59,997 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\gpio.tmp
+2021-07-25 22:51:00,026 [ERROR] IPConfigManager:1461 - ERROR: the RefConfig ADC_InternalChannelConfig is not available in your config.xml file
+2021-07-25 22:51:00,027 [ERROR] IPConfigManager:1461 - ERROR: the RefConfig ADC_EnableInternalRegulator is not available in your config.xml file
+2021-07-25 22:51:01,063 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-25 22:51:01,065 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-25 22:51:01,168 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma.tmp_save
+2021-07-25 22:51:01,222 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma.tmp
+2021-07-25 22:51:01,226 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma_GV.tmp_save
+2021-07-25 22:51:01,270 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma_GV.tmp
+2021-07-25 22:51:01,272 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-25 22:51:01,274 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-25 22:51:01,286 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_it.c_save
+2021-07-25 22:51:01,359 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_it.c
+2021-07-25 22:51:01,364 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_it.h_save
+2021-07-25 22:51:01,413 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_it.h
+2021-07-25 22:51:01,424 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_hal_msp.c_save
+2021-07-25 22:51:01,515 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_hal_msp.c
+2021-07-25 22:51:01,519 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\system.tmp_save
+2021-07-25 22:51:01,558 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\system.tmp
+2021-07-25 22:51:01,566 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_hal_conf.h_save
+2021-07-25 22:51:01,622 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_hal_conf.h
+2021-07-25 22:51:01,656 [WARN] IPConfigManager:2976 - IP not found : TIM
+2021-07-25 22:51:01,656 [WARN] CodeGenerator:3191 - IP not found : null
+2021-07-25 22:51:01,664 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\main.h_save
+2021-07-25 22:51:01,714 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\main.h
+2021-07-25 22:51:01,719 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\main.c_save
+2021-07-25 22:51:01,836 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\main.c
+2021-07-25 22:51:02,530 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 111mS.
+2021-07-25 22:51:02,534 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-07-25 22:51:02,948 [INFO] ConfigFileManager:1242 - The Die is : DIE435
+2021-07-25 22:51:04,643 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 2108mS.
+2021-07-25 22:51:04,643 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-25 22:51:04,646 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-25 22:57:04,230 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 655081472 Bytes (944766976)
+2021-07-25 22:57:05,512 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 669239296 Bytes (944766976)
+2021-07-25 22:57:07,420 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 400635408 Bytes (944766976)
+2021-07-25 22:57:07,797 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-07-25 22:57:07,797 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-25 22:57:07,798 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: DMA
+2021-07-25 22:57:07,798 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8L4
+2021-07-25 22:57:07,798 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-07-25 22:57:07,798 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-07-25 22:57:07,798 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: ADC
+2021-07-25 22:57:07,798 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-07-25 22:57:07,799 [INFO] CodeGenerator:641 - code generatio: config db path: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\
+2021-07-25 22:57:07,811 [INFO] Argument:278 - Argument : hdmavalue: null
+2021-07-25 22:57:07,812 [INFO] Argument:280 - 	 sub Args: 
+2021-07-25 22:57:07,812 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Channel1
+2021-07-25 22:57:07,812 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Channel1
+2021-07-25 22:57:07,812 [INFO] Argument:278 - Argument : Initvalue: null
+2021-07-25 22:57:07,812 [INFO] Argument:280 - 	 sub Args: 
+2021-07-25 22:57:07,812 [INFO] Argument:278 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-25 22:57:07,812 [INFO] Argument:288 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-25 22:57:07,812 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-25 22:57:07,812 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-25 22:57:07,812 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-25 22:57:07,812 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-25 22:57:07,812 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-25 22:57:07,812 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-25 22:57:07,813 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-25 22:57:07,813 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-25 22:57:07,813 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-25 22:57:07,813 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-25 22:57:07,813 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-25 22:57:07,813 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-25 22:57:07,813 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-25 22:57:07,813 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-25 22:57:07,813 [INFO] Argument:278 - Argument : Lockvalue: null
+2021-07-25 22:57:07,813 [INFO] Argument:288 - Argument : Lockvalue: null
+2021-07-25 22:57:07,813 [INFO] Argument:278 - Argument : Statevalue: null
+2021-07-25 22:57:07,813 [INFO] Argument:288 - Argument : Statevalue: null
+2021-07-25 22:57:07,813 [INFO] Argument:278 - Argument : Parentvalue: null
+2021-07-25 22:57:07,813 [INFO] Argument:288 - Argument : Parentvalue: null
+2021-07-25 22:57:07,813 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2021-07-25 22:57:07,813 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2021-07-25 22:57:07,814 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-25 22:57:07,814 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-25 22:57:07,814 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2021-07-25 22:57:07,814 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2021-07-25 22:57:07,814 [INFO] Argument:278 - Argument : XferAbortCallbackvalue: null
+2021-07-25 22:57:07,814 [INFO] Argument:288 - Argument : XferAbortCallbackvalue: null
+2021-07-25 22:57:07,814 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2021-07-25 22:57:07,814 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2021-07-25 22:57:07,814 [INFO] Argument:278 - Argument : DmaBaseAddressvalue: null
+2021-07-25 22:57:07,814 [INFO] Argument:288 - Argument : DmaBaseAddressvalue: null
+2021-07-25 22:57:07,814 [INFO] Argument:278 - Argument : ChannelIndexvalue: null
+2021-07-25 22:57:07,814 [INFO] Argument:288 - Argument : ChannelIndexvalue: null
+2021-07-25 22:57:07,814 [INFO] Argument:278 - Argument : hdmavalue: null
+2021-07-25 22:57:07,814 [INFO] Argument:280 - 	 sub Args: 
+2021-07-25 22:57:07,815 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Channel1
+2021-07-25 22:57:07,815 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Channel1
+2021-07-25 22:57:07,815 [INFO] Argument:278 - Argument : Initvalue: null
+2021-07-25 22:57:07,815 [INFO] Argument:280 - 	 sub Args: 
+2021-07-25 22:57:07,815 [INFO] Argument:278 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-25 22:57:07,815 [INFO] Argument:288 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-25 22:57:07,815 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-25 22:57:07,815 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-25 22:57:07,815 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-25 22:57:07,815 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-25 22:57:07,815 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-25 22:57:07,815 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-25 22:57:07,815 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-25 22:57:07,815 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-25 22:57:07,815 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-25 22:57:07,816 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-25 22:57:07,816 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-25 22:57:07,816 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-25 22:57:07,816 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-25 22:57:07,816 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-25 22:57:07,816 [INFO] Argument:278 - Argument : Lockvalue: null
+2021-07-25 22:57:07,816 [INFO] Argument:288 - Argument : Lockvalue: null
+2021-07-25 22:57:07,816 [INFO] Argument:278 - Argument : Statevalue: null
+2021-07-25 22:57:07,816 [INFO] Argument:288 - Argument : Statevalue: null
+2021-07-25 22:57:07,816 [INFO] Argument:278 - Argument : Parentvalue: null
+2021-07-25 22:57:07,816 [INFO] Argument:288 - Argument : Parentvalue: null
+2021-07-25 22:57:07,816 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2021-07-25 22:57:07,816 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2021-07-25 22:57:07,816 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-25 22:57:07,816 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-25 22:57:07,816 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2021-07-25 22:57:07,817 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2021-07-25 22:57:07,817 [INFO] Argument:278 - Argument : XferAbortCallbackvalue: null
+2021-07-25 22:57:07,817 [INFO] Argument:288 - Argument : XferAbortCallbackvalue: null
+2021-07-25 22:57:07,817 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2021-07-25 22:57:07,817 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2021-07-25 22:57:07,817 [INFO] Argument:278 - Argument : DmaBaseAddressvalue: null
+2021-07-25 22:57:07,817 [INFO] Argument:288 - Argument : DmaBaseAddressvalue: null
+2021-07-25 22:57:07,817 [INFO] Argument:278 - Argument : ChannelIndexvalue: null
+2021-07-25 22:57:07,817 [INFO] Argument:288 - Argument : ChannelIndexvalue: null
+2021-07-25 22:57:07,817 [INFO] Argument:278 - Argument : pSyncConfigvalue: null
+2021-07-25 22:57:07,817 [INFO] Argument:280 - 	 sub Args: 
+2021-07-25 22:57:07,817 [INFO] Argument:278 - Argument : SyncSignalIDvalue: null
+2021-07-25 22:57:07,817 [INFO] Argument:288 - Argument : SyncSignalIDvalue: null
+2021-07-25 22:57:07,817 [INFO] Argument:278 - Argument : SyncPolarityvalue: null
+2021-07-25 22:57:07,818 [INFO] Argument:288 - Argument : SyncPolarityvalue: null
+2021-07-25 22:57:07,818 [INFO] Argument:278 - Argument : SyncEnablevalue: null
+2021-07-25 22:57:07,818 [INFO] Argument:288 - Argument : SyncEnablevalue: null
+2021-07-25 22:57:07,818 [INFO] Argument:278 - Argument : EventEnablevalue: null
+2021-07-25 22:57:07,818 [INFO] Argument:288 - Argument : EventEnablevalue: null
+2021-07-25 22:57:07,818 [INFO] Argument:278 - Argument : RequestNumbervalue: null
+2021-07-25 22:57:07,818 [INFO] Argument:288 - Argument : RequestNumbervalue: null
+2021-07-25 22:57:08,174 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\license.tmp_save
+2021-07-25 22:57:08,293 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\license.tmp
+2021-07-25 22:57:08,432 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\gpio.tmp_save
+2021-07-25 22:57:08,472 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\gpio.tmp
+2021-07-25 22:57:08,491 [ERROR] IPConfigManager:1461 - ERROR: the RefConfig ADC_InternalChannelConfig is not available in your config.xml file
+2021-07-25 22:57:08,492 [ERROR] IPConfigManager:1461 - ERROR: the RefConfig ADC_EnableInternalRegulator is not available in your config.xml file
+2021-07-25 22:57:09,290 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-25 22:57:09,292 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-25 22:57:09,376 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma.tmp_save
+2021-07-25 22:57:09,417 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma.tmp
+2021-07-25 22:57:09,420 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma_GV.tmp_save
+2021-07-25 22:57:09,457 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma_GV.tmp
+2021-07-25 22:57:09,458 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-25 22:57:09,460 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-25 22:57:09,471 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_it.c_save
+2021-07-25 22:57:09,536 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_it.c
+2021-07-25 22:57:09,541 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_it.h_save
+2021-07-25 22:57:09,587 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_it.h
+2021-07-25 22:57:09,598 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_hal_msp.c_save
+2021-07-25 22:57:09,676 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_hal_msp.c
+2021-07-25 22:57:09,679 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\system.tmp_save
+2021-07-25 22:57:09,717 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\system.tmp
+2021-07-25 22:57:09,726 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_hal_conf.h_save
+2021-07-25 22:57:09,780 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_hal_conf.h
+2021-07-25 22:57:09,810 [WARN] IPConfigManager:2976 - IP not found : TIM
+2021-07-25 22:57:09,811 [WARN] CodeGenerator:3191 - IP not found : null
+2021-07-25 22:57:09,819 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\main.h_save
+2021-07-25 22:57:09,869 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\main.h
+2021-07-25 22:57:09,874 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\main.c_save
+2021-07-25 22:57:09,990 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\main.c
+2021-07-25 22:57:10,641 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 111mS.
+2021-07-25 22:57:10,645 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-07-25 22:57:10,932 [INFO] ConfigFileManager:1242 - The Die is : DIE435
+2021-07-25 22:57:12,645 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 2000mS.
+2021-07-25 22:57:12,646 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 1mS.
+2021-07-25 22:57:12,651 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 1mS.
+2021-07-26 00:59:49,495 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,511x196,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-07-26 00:59:55,472 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 467899840 Bytes (957349888)
+2021-07-26 00:59:56,630 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 483106240 Bytes (957349888)
+2021-07-26 00:59:58,469 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 594255296 Bytes (957349888)
+2021-07-26 00:59:58,848 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-07-26 00:59:58,849 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-26 00:59:58,849 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM6_7L4
+2021-07-26 00:59:58,849 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: DMA
+2021-07-26 00:59:58,849 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8L4
+2021-07-26 00:59:58,849 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-07-26 00:59:58,849 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-07-26 00:59:58,849 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: ADC
+2021-07-26 00:59:58,849 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-07-26 00:59:58,850 [INFO] CodeGenerator:641 - code generatio: config db path: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\
+2021-07-26 00:59:58,865 [INFO] Argument:278 - Argument : hdmavalue: null
+2021-07-26 00:59:58,865 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 00:59:58,865 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Channel1
+2021-07-26 00:59:58,865 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Channel1
+2021-07-26 00:59:58,865 [INFO] Argument:278 - Argument : Initvalue: null
+2021-07-26 00:59:58,865 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 00:59:58,865 [INFO] Argument:278 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-26 00:59:58,866 [INFO] Argument:288 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-26 00:59:58,866 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-26 00:59:58,866 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-26 00:59:58,866 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-26 00:59:58,866 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-26 00:59:58,866 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-26 00:59:58,866 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-26 00:59:58,866 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-26 00:59:58,866 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-26 00:59:58,866 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-26 00:59:58,866 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-26 00:59:58,866 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-26 00:59:58,867 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-26 00:59:58,867 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-26 00:59:58,867 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-26 00:59:58,867 [INFO] Argument:278 - Argument : Lockvalue: null
+2021-07-26 00:59:58,867 [INFO] Argument:288 - Argument : Lockvalue: null
+2021-07-26 00:59:58,867 [INFO] Argument:278 - Argument : Statevalue: null
+2021-07-26 00:59:58,867 [INFO] Argument:288 - Argument : Statevalue: null
+2021-07-26 00:59:58,867 [INFO] Argument:278 - Argument : Parentvalue: null
+2021-07-26 00:59:58,867 [INFO] Argument:288 - Argument : Parentvalue: null
+2021-07-26 00:59:58,867 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2021-07-26 00:59:58,867 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2021-07-26 00:59:58,867 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-26 00:59:58,868 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-26 00:59:58,868 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2021-07-26 00:59:58,868 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2021-07-26 00:59:58,868 [INFO] Argument:278 - Argument : XferAbortCallbackvalue: null
+2021-07-26 00:59:58,868 [INFO] Argument:288 - Argument : XferAbortCallbackvalue: null
+2021-07-26 00:59:58,868 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2021-07-26 00:59:58,868 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2021-07-26 00:59:58,868 [INFO] Argument:278 - Argument : DmaBaseAddressvalue: null
+2021-07-26 00:59:58,868 [INFO] Argument:288 - Argument : DmaBaseAddressvalue: null
+2021-07-26 00:59:58,868 [INFO] Argument:278 - Argument : ChannelIndexvalue: null
+2021-07-26 00:59:58,868 [INFO] Argument:288 - Argument : ChannelIndexvalue: null
+2021-07-26 00:59:58,868 [INFO] Argument:278 - Argument : hdmavalue: null
+2021-07-26 00:59:58,868 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 00:59:58,869 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Channel1
+2021-07-26 00:59:58,869 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Channel1
+2021-07-26 00:59:58,869 [INFO] Argument:278 - Argument : Initvalue: null
+2021-07-26 00:59:58,869 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 00:59:58,870 [INFO] Argument:278 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-26 00:59:58,870 [INFO] Argument:288 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-26 00:59:58,870 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-26 00:59:58,870 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-26 00:59:58,870 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-26 00:59:58,870 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-26 00:59:58,870 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-26 00:59:58,870 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-26 00:59:58,870 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-26 00:59:58,871 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-26 00:59:58,871 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-26 00:59:58,871 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-26 00:59:58,871 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-26 00:59:58,871 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-26 00:59:58,871 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-26 00:59:58,871 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-26 00:59:58,871 [INFO] Argument:278 - Argument : Lockvalue: null
+2021-07-26 00:59:58,872 [INFO] Argument:288 - Argument : Lockvalue: null
+2021-07-26 00:59:58,872 [INFO] Argument:278 - Argument : Statevalue: null
+2021-07-26 00:59:58,872 [INFO] Argument:288 - Argument : Statevalue: null
+2021-07-26 00:59:58,872 [INFO] Argument:278 - Argument : Parentvalue: null
+2021-07-26 00:59:58,872 [INFO] Argument:288 - Argument : Parentvalue: null
+2021-07-26 00:59:58,872 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2021-07-26 00:59:58,872 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2021-07-26 00:59:58,872 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-26 00:59:58,872 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-26 00:59:58,872 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2021-07-26 00:59:58,873 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2021-07-26 00:59:58,873 [INFO] Argument:278 - Argument : XferAbortCallbackvalue: null
+2021-07-26 00:59:58,873 [INFO] Argument:288 - Argument : XferAbortCallbackvalue: null
+2021-07-26 00:59:58,873 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2021-07-26 00:59:58,873 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2021-07-26 00:59:58,873 [INFO] Argument:278 - Argument : DmaBaseAddressvalue: null
+2021-07-26 00:59:58,873 [INFO] Argument:288 - Argument : DmaBaseAddressvalue: null
+2021-07-26 00:59:58,873 [INFO] Argument:278 - Argument : ChannelIndexvalue: null
+2021-07-26 00:59:58,873 [INFO] Argument:288 - Argument : ChannelIndexvalue: null
+2021-07-26 00:59:58,873 [INFO] Argument:278 - Argument : pSyncConfigvalue: null
+2021-07-26 00:59:58,873 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 00:59:58,874 [INFO] Argument:278 - Argument : SyncSignalIDvalue: null
+2021-07-26 00:59:58,874 [INFO] Argument:288 - Argument : SyncSignalIDvalue: null
+2021-07-26 00:59:58,874 [INFO] Argument:278 - Argument : SyncPolarityvalue: null
+2021-07-26 00:59:58,874 [INFO] Argument:288 - Argument : SyncPolarityvalue: null
+2021-07-26 00:59:58,874 [INFO] Argument:278 - Argument : SyncEnablevalue: null
+2021-07-26 00:59:58,874 [INFO] Argument:288 - Argument : SyncEnablevalue: null
+2021-07-26 00:59:58,874 [INFO] Argument:278 - Argument : EventEnablevalue: null
+2021-07-26 00:59:58,874 [INFO] Argument:288 - Argument : EventEnablevalue: null
+2021-07-26 00:59:58,874 [INFO] Argument:278 - Argument : RequestNumbervalue: null
+2021-07-26 00:59:58,874 [INFO] Argument:288 - Argument : RequestNumbervalue: null
+2021-07-26 00:59:59,192 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\license.tmp_save
+2021-07-26 00:59:59,275 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\license.tmp
+2021-07-26 00:59:59,565 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\gpio.tmp_save
+2021-07-26 00:59:59,627 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\gpio.tmp
+2021-07-26 00:59:59,656 [ERROR] IPConfigManager:1461 - ERROR: the RefConfig ADC_InternalChannelConfig is not available in your config.xml file
+2021-07-26 00:59:59,660 [ERROR] IPConfigManager:1461 - ERROR: the RefConfig ADC_EnableInternalRegulator is not available in your config.xml file
+2021-07-26 01:00:00,904 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-26 01:00:00,907 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-26 01:00:00,971 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma.tmp_save
+2021-07-26 01:00:01,019 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma.tmp
+2021-07-26 01:00:01,024 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma_GV.tmp_save
+2021-07-26 01:00:01,068 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma_GV.tmp
+2021-07-26 01:00:01,070 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-26 01:00:01,083 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-26 01:00:01,099 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_it.c_save
+2021-07-26 01:00:01,174 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_it.c
+2021-07-26 01:00:01,179 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_it.h_save
+2021-07-26 01:00:01,255 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_it.h
+2021-07-26 01:00:01,269 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_hal_msp.c_save
+2021-07-26 01:00:01,362 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_hal_msp.c
+2021-07-26 01:00:01,367 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\system.tmp_save
+2021-07-26 01:00:01,405 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\system.tmp
+2021-07-26 01:00:01,419 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_hal_conf.h_save
+2021-07-26 01:00:01,481 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_hal_conf.h
+2021-07-26 01:00:01,514 [WARN] IPConfigManager:2976 - IP not found : TIM
+2021-07-26 01:00:01,515 [WARN] CodeGenerator:3191 - IP not found : null
+2021-07-26 01:00:01,525 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\main.h_save
+2021-07-26 01:00:01,577 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\main.h
+2021-07-26 01:00:01,584 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\main.c_save
+2021-07-26 01:00:01,708 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\main.c
+2021-07-26 01:00:02,612 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 295mS.
+2021-07-26 01:00:02,616 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-07-26 01:00:02,909 [INFO] ConfigFileManager:1242 - The Die is : DIE435
+2021-07-26 01:00:04,733 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 2117mS.
+2021-07-26 01:00:04,734 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-26 01:00:04,738 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-26 01:05:49,254 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 433808384 Bytes (969932800)
+2021-07-26 01:05:50,370 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 447966208 Bytes (969932800)
+2021-07-26 01:05:51,704 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 553872384 Bytes (969932800)
+2021-07-26 01:05:52,081 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-07-26 01:05:52,082 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-26 01:05:52,082 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM6_7L4
+2021-07-26 01:05:52,082 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: DMA
+2021-07-26 01:05:52,082 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8L4
+2021-07-26 01:05:52,082 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-07-26 01:05:52,083 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-07-26 01:05:52,083 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: ADC
+2021-07-26 01:05:52,083 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-07-26 01:05:52,084 [INFO] CodeGenerator:641 - code generatio: config db path: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\
+2021-07-26 01:05:52,101 [INFO] Argument:278 - Argument : hdmavalue: null
+2021-07-26 01:05:52,101 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 01:05:52,101 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Channel1
+2021-07-26 01:05:52,101 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Channel1
+2021-07-26 01:05:52,101 [INFO] Argument:278 - Argument : Initvalue: null
+2021-07-26 01:05:52,101 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 01:05:52,101 [INFO] Argument:278 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-26 01:05:52,101 [INFO] Argument:288 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-26 01:05:52,102 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-26 01:05:52,102 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-26 01:05:52,102 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-26 01:05:52,102 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-26 01:05:52,102 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-26 01:05:52,102 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-26 01:05:52,102 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-26 01:05:52,102 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-26 01:05:52,102 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-26 01:05:52,103 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-26 01:05:52,103 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-26 01:05:52,103 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-26 01:05:52,103 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-26 01:05:52,103 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-26 01:05:52,103 [INFO] Argument:278 - Argument : Lockvalue: null
+2021-07-26 01:05:52,103 [INFO] Argument:288 - Argument : Lockvalue: null
+2021-07-26 01:05:52,103 [INFO] Argument:278 - Argument : Statevalue: null
+2021-07-26 01:05:52,103 [INFO] Argument:288 - Argument : Statevalue: null
+2021-07-26 01:05:52,103 [INFO] Argument:278 - Argument : Parentvalue: null
+2021-07-26 01:05:52,104 [INFO] Argument:288 - Argument : Parentvalue: null
+2021-07-26 01:05:52,104 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2021-07-26 01:05:52,104 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2021-07-26 01:05:52,104 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-26 01:05:52,104 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-26 01:05:52,104 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2021-07-26 01:05:52,104 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2021-07-26 01:05:52,104 [INFO] Argument:278 - Argument : XferAbortCallbackvalue: null
+2021-07-26 01:05:52,104 [INFO] Argument:288 - Argument : XferAbortCallbackvalue: null
+2021-07-26 01:05:52,104 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2021-07-26 01:05:52,104 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2021-07-26 01:05:52,105 [INFO] Argument:278 - Argument : DmaBaseAddressvalue: null
+2021-07-26 01:05:52,105 [INFO] Argument:288 - Argument : DmaBaseAddressvalue: null
+2021-07-26 01:05:52,105 [INFO] Argument:278 - Argument : ChannelIndexvalue: null
+2021-07-26 01:05:52,105 [INFO] Argument:288 - Argument : ChannelIndexvalue: null
+2021-07-26 01:05:52,105 [INFO] Argument:278 - Argument : hdmavalue: null
+2021-07-26 01:05:52,105 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 01:05:52,105 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Channel1
+2021-07-26 01:05:52,105 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Channel1
+2021-07-26 01:05:52,105 [INFO] Argument:278 - Argument : Initvalue: null
+2021-07-26 01:05:52,105 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 01:05:52,106 [INFO] Argument:278 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-26 01:05:52,106 [INFO] Argument:288 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-26 01:05:52,106 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-26 01:05:52,106 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-26 01:05:52,106 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-26 01:05:52,106 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-26 01:05:52,106 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-26 01:05:52,106 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-26 01:05:52,106 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-26 01:05:52,106 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-26 01:05:52,107 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-26 01:05:52,107 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-26 01:05:52,107 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-26 01:05:52,107 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-26 01:05:52,107 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-26 01:05:52,107 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-26 01:05:52,107 [INFO] Argument:278 - Argument : Lockvalue: null
+2021-07-26 01:05:52,107 [INFO] Argument:288 - Argument : Lockvalue: null
+2021-07-26 01:05:52,107 [INFO] Argument:278 - Argument : Statevalue: null
+2021-07-26 01:05:52,107 [INFO] Argument:288 - Argument : Statevalue: null
+2021-07-26 01:05:52,107 [INFO] Argument:278 - Argument : Parentvalue: null
+2021-07-26 01:05:52,108 [INFO] Argument:288 - Argument : Parentvalue: null
+2021-07-26 01:05:52,108 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2021-07-26 01:05:52,108 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2021-07-26 01:05:52,108 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-26 01:05:52,108 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-26 01:05:52,108 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2021-07-26 01:05:52,108 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2021-07-26 01:05:52,108 [INFO] Argument:278 - Argument : XferAbortCallbackvalue: null
+2021-07-26 01:05:52,108 [INFO] Argument:288 - Argument : XferAbortCallbackvalue: null
+2021-07-26 01:05:52,108 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2021-07-26 01:05:52,109 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2021-07-26 01:05:52,109 [INFO] Argument:278 - Argument : DmaBaseAddressvalue: null
+2021-07-26 01:05:52,109 [INFO] Argument:288 - Argument : DmaBaseAddressvalue: null
+2021-07-26 01:05:52,109 [INFO] Argument:278 - Argument : ChannelIndexvalue: null
+2021-07-26 01:05:52,109 [INFO] Argument:288 - Argument : ChannelIndexvalue: null
+2021-07-26 01:05:52,109 [INFO] Argument:278 - Argument : pSyncConfigvalue: null
+2021-07-26 01:05:52,109 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 01:05:52,109 [INFO] Argument:278 - Argument : SyncSignalIDvalue: null
+2021-07-26 01:05:52,109 [INFO] Argument:288 - Argument : SyncSignalIDvalue: null
+2021-07-26 01:05:52,109 [INFO] Argument:278 - Argument : SyncPolarityvalue: null
+2021-07-26 01:05:52,110 [INFO] Argument:288 - Argument : SyncPolarityvalue: null
+2021-07-26 01:05:52,110 [INFO] Argument:278 - Argument : SyncEnablevalue: null
+2021-07-26 01:05:52,110 [INFO] Argument:288 - Argument : SyncEnablevalue: null
+2021-07-26 01:05:52,110 [INFO] Argument:278 - Argument : EventEnablevalue: null
+2021-07-26 01:05:52,110 [INFO] Argument:288 - Argument : EventEnablevalue: null
+2021-07-26 01:05:52,110 [INFO] Argument:278 - Argument : RequestNumbervalue: null
+2021-07-26 01:05:52,110 [INFO] Argument:288 - Argument : RequestNumbervalue: null
+2021-07-26 01:05:52,381 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\license.tmp_save
+2021-07-26 01:05:52,435 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\license.tmp
+2021-07-26 01:05:52,556 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\gpio.tmp_save
+2021-07-26 01:05:52,596 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\gpio.tmp
+2021-07-26 01:05:52,616 [ERROR] IPConfigManager:1461 - ERROR: the RefConfig ADC_InternalChannelConfig is not available in your config.xml file
+2021-07-26 01:05:52,617 [ERROR] IPConfigManager:1461 - ERROR: the RefConfig ADC_EnableInternalRegulator is not available in your config.xml file
+2021-07-26 01:05:53,681 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-26 01:05:53,683 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-26 01:05:53,773 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma.tmp_save
+2021-07-26 01:05:53,817 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma.tmp
+2021-07-26 01:05:53,821 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma_GV.tmp_save
+2021-07-26 01:05:53,863 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma_GV.tmp
+2021-07-26 01:05:53,865 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-26 01:05:53,867 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-26 01:05:53,878 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_it.c_save
+2021-07-26 01:05:53,945 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_it.c
+2021-07-26 01:05:53,950 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_it.h_save
+2021-07-26 01:05:53,996 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_it.h
+2021-07-26 01:05:54,007 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_hal_msp.c_save
+2021-07-26 01:05:54,090 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_hal_msp.c
+2021-07-26 01:05:54,093 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\system.tmp_save
+2021-07-26 01:05:54,132 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\system.tmp
+2021-07-26 01:05:54,141 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_hal_conf.h_save
+2021-07-26 01:05:54,194 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_hal_conf.h
+2021-07-26 01:05:54,226 [WARN] IPConfigManager:2976 - IP not found : TIM
+2021-07-26 01:05:54,227 [WARN] CodeGenerator:3191 - IP not found : null
+2021-07-26 01:05:54,235 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\main.h_save
+2021-07-26 01:05:54,286 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\main.h
+2021-07-26 01:05:54,291 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\main.c_save
+2021-07-26 01:05:54,412 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\main.c
+2021-07-26 01:05:55,131 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 116mS.
+2021-07-26 01:05:55,136 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-07-26 01:05:55,577 [INFO] ConfigFileManager:1242 - The Die is : DIE435
+2021-07-26 01:05:57,341 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 2205mS.
+2021-07-26 01:05:57,343 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 1mS.
+2021-07-26 01:05:57,346 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-26 01:12:52,405 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 551169024 Bytes (996147200)
+2021-07-26 01:12:53,828 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 565322752 Bytes (996147200)
+2021-07-26 01:12:55,309 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 606217216 Bytes (996147200)
+2021-07-26 01:12:55,727 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-07-26 01:12:55,728 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-26 01:12:55,728 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM6_7L4
+2021-07-26 01:12:55,728 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: DMA
+2021-07-26 01:12:55,728 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8L4
+2021-07-26 01:12:55,728 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-07-26 01:12:55,728 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-07-26 01:12:55,728 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: ADC
+2021-07-26 01:12:55,728 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-07-26 01:12:55,729 [INFO] CodeGenerator:641 - code generatio: config db path: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\
+2021-07-26 01:12:55,772 [INFO] Argument:278 - Argument : hdmavalue: null
+2021-07-26 01:12:55,772 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 01:12:55,772 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Channel1
+2021-07-26 01:12:55,773 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Channel1
+2021-07-26 01:12:55,773 [INFO] Argument:278 - Argument : Initvalue: null
+2021-07-26 01:12:55,773 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 01:12:55,773 [INFO] Argument:278 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-26 01:12:55,773 [INFO] Argument:288 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-26 01:12:55,773 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-26 01:12:55,773 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-26 01:12:55,773 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-26 01:12:55,773 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-26 01:12:55,773 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-26 01:12:55,773 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-26 01:12:55,773 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-26 01:12:55,773 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-26 01:12:55,773 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-26 01:12:55,774 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-26 01:12:55,774 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-26 01:12:55,774 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-26 01:12:55,774 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-26 01:12:55,774 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-26 01:12:55,774 [INFO] Argument:278 - Argument : Lockvalue: null
+2021-07-26 01:12:55,774 [INFO] Argument:288 - Argument : Lockvalue: null
+2021-07-26 01:12:55,774 [INFO] Argument:278 - Argument : Statevalue: null
+2021-07-26 01:12:55,774 [INFO] Argument:288 - Argument : Statevalue: null
+2021-07-26 01:12:55,774 [INFO] Argument:278 - Argument : Parentvalue: null
+2021-07-26 01:12:55,774 [INFO] Argument:288 - Argument : Parentvalue: null
+2021-07-26 01:12:55,775 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2021-07-26 01:12:55,775 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2021-07-26 01:12:55,775 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-26 01:12:55,775 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-26 01:12:55,775 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2021-07-26 01:12:55,775 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2021-07-26 01:12:55,775 [INFO] Argument:278 - Argument : XferAbortCallbackvalue: null
+2021-07-26 01:12:55,775 [INFO] Argument:288 - Argument : XferAbortCallbackvalue: null
+2021-07-26 01:12:55,775 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2021-07-26 01:12:55,775 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2021-07-26 01:12:55,775 [INFO] Argument:278 - Argument : DmaBaseAddressvalue: null
+2021-07-26 01:12:55,775 [INFO] Argument:288 - Argument : DmaBaseAddressvalue: null
+2021-07-26 01:12:55,775 [INFO] Argument:278 - Argument : ChannelIndexvalue: null
+2021-07-26 01:12:55,775 [INFO] Argument:288 - Argument : ChannelIndexvalue: null
+2021-07-26 01:12:55,776 [INFO] Argument:278 - Argument : hdmavalue: null
+2021-07-26 01:12:55,776 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 01:12:55,776 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Channel1
+2021-07-26 01:12:55,776 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Channel1
+2021-07-26 01:12:55,776 [INFO] Argument:278 - Argument : Initvalue: null
+2021-07-26 01:12:55,776 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 01:12:55,776 [INFO] Argument:278 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-26 01:12:55,777 [INFO] Argument:288 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-26 01:12:55,778 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-26 01:12:55,778 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-26 01:12:55,778 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-26 01:12:55,778 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-26 01:12:55,778 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-26 01:12:55,778 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-26 01:12:55,778 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-26 01:12:55,778 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-26 01:12:55,778 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-26 01:12:55,778 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-26 01:12:55,778 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-26 01:12:55,778 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-26 01:12:55,779 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-26 01:12:55,779 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-26 01:12:55,779 [INFO] Argument:278 - Argument : Lockvalue: null
+2021-07-26 01:12:55,779 [INFO] Argument:288 - Argument : Lockvalue: null
+2021-07-26 01:12:55,779 [INFO] Argument:278 - Argument : Statevalue: null
+2021-07-26 01:12:55,779 [INFO] Argument:288 - Argument : Statevalue: null
+2021-07-26 01:12:55,779 [INFO] Argument:278 - Argument : Parentvalue: null
+2021-07-26 01:12:55,779 [INFO] Argument:288 - Argument : Parentvalue: null
+2021-07-26 01:12:55,779 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2021-07-26 01:12:55,779 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2021-07-26 01:12:55,779 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-26 01:12:55,779 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-26 01:12:55,779 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2021-07-26 01:12:55,779 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2021-07-26 01:12:55,779 [INFO] Argument:278 - Argument : XferAbortCallbackvalue: null
+2021-07-26 01:12:55,780 [INFO] Argument:288 - Argument : XferAbortCallbackvalue: null
+2021-07-26 01:12:55,780 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2021-07-26 01:12:55,780 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2021-07-26 01:12:55,780 [INFO] Argument:278 - Argument : DmaBaseAddressvalue: null
+2021-07-26 01:12:55,780 [INFO] Argument:288 - Argument : DmaBaseAddressvalue: null
+2021-07-26 01:12:55,780 [INFO] Argument:278 - Argument : ChannelIndexvalue: null
+2021-07-26 01:12:55,780 [INFO] Argument:288 - Argument : ChannelIndexvalue: null
+2021-07-26 01:12:55,780 [INFO] Argument:278 - Argument : pSyncConfigvalue: null
+2021-07-26 01:12:55,780 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 01:12:55,780 [INFO] Argument:278 - Argument : SyncSignalIDvalue: null
+2021-07-26 01:12:55,780 [INFO] Argument:288 - Argument : SyncSignalIDvalue: null
+2021-07-26 01:12:55,780 [INFO] Argument:278 - Argument : SyncPolarityvalue: null
+2021-07-26 01:12:55,780 [INFO] Argument:288 - Argument : SyncPolarityvalue: null
+2021-07-26 01:12:55,780 [INFO] Argument:278 - Argument : SyncEnablevalue: null
+2021-07-26 01:12:55,780 [INFO] Argument:288 - Argument : SyncEnablevalue: null
+2021-07-26 01:12:55,780 [INFO] Argument:278 - Argument : EventEnablevalue: null
+2021-07-26 01:12:55,780 [INFO] Argument:288 - Argument : EventEnablevalue: null
+2021-07-26 01:12:55,780 [INFO] Argument:278 - Argument : RequestNumbervalue: null
+2021-07-26 01:12:55,781 [INFO] Argument:288 - Argument : RequestNumbervalue: null
+2021-07-26 01:12:56,084 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\license.tmp_save
+2021-07-26 01:12:56,213 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\license.tmp
+2021-07-26 01:12:56,347 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\gpio.tmp_save
+2021-07-26 01:12:56,396 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\gpio.tmp
+2021-07-26 01:12:56,422 [ERROR] IPConfigManager:1461 - ERROR: the RefConfig ADC_InternalChannelConfig is not available in your config.xml file
+2021-07-26 01:12:56,423 [ERROR] IPConfigManager:1461 - ERROR: the RefConfig ADC_EnableInternalRegulator is not available in your config.xml file
+2021-07-26 01:12:57,432 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-26 01:12:57,434 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-26 01:12:57,497 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma.tmp_save
+2021-07-26 01:12:57,543 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma.tmp
+2021-07-26 01:12:57,546 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma_GV.tmp_save
+2021-07-26 01:12:57,586 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma_GV.tmp
+2021-07-26 01:12:57,588 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-26 01:12:57,590 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-26 01:12:57,602 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_it.c_save
+2021-07-26 01:12:57,694 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_it.c
+2021-07-26 01:12:57,700 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_it.h_save
+2021-07-26 01:12:57,761 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_it.h
+2021-07-26 01:12:57,775 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_hal_msp.c_save
+2021-07-26 01:12:57,910 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_hal_msp.c
+2021-07-26 01:12:57,913 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\system.tmp_save
+2021-07-26 01:12:57,956 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\system.tmp
+2021-07-26 01:12:57,965 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_hal_conf.h_save
+2021-07-26 01:12:58,019 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_hal_conf.h
+2021-07-26 01:12:58,051 [WARN] IPConfigManager:2976 - IP not found : TIM
+2021-07-26 01:12:58,052 [WARN] CodeGenerator:3191 - IP not found : null
+2021-07-26 01:12:58,060 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\main.h_save
+2021-07-26 01:12:58,111 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\main.h
+2021-07-26 01:12:58,116 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\main.c_save
+2021-07-26 01:12:58,239 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\main.c
+2021-07-26 01:12:59,007 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 137mS.
+2021-07-26 01:12:59,011 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-07-26 01:12:59,307 [INFO] ConfigFileManager:1242 - The Die is : DIE435
+2021-07-26 01:13:00,992 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 1981mS.
+2021-07-26 01:13:00,993 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 1mS.
+2021-07-26 01:13:00,996 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-26 01:31:26,008 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 666387800 Bytes (1015021568)
+2021-07-26 01:31:27,361 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 683160680 Bytes (1015021568)
+2021-07-26 01:31:28,955 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 724430128 Bytes (1015021568)
+2021-07-26 01:31:29,347 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-07-26 01:31:29,347 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-26 01:31:29,348 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM6_7L4
+2021-07-26 01:31:29,348 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: DMA
+2021-07-26 01:31:29,348 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8L4
+2021-07-26 01:31:29,348 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-07-26 01:31:29,348 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-07-26 01:31:29,348 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: ADC
+2021-07-26 01:31:29,348 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-07-26 01:31:29,349 [INFO] CodeGenerator:641 - code generatio: config db path: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\
+2021-07-26 01:31:29,367 [INFO] Argument:278 - Argument : hdmavalue: null
+2021-07-26 01:31:29,367 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 01:31:29,367 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Channel1
+2021-07-26 01:31:29,367 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Channel1
+2021-07-26 01:31:29,367 [INFO] Argument:278 - Argument : Initvalue: null
+2021-07-26 01:31:29,367 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 01:31:29,367 [INFO] Argument:278 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-26 01:31:29,367 [INFO] Argument:288 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-26 01:31:29,367 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-26 01:31:29,368 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-26 01:31:29,368 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-26 01:31:29,368 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-26 01:31:29,368 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-26 01:31:29,368 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-26 01:31:29,368 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-26 01:31:29,368 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-26 01:31:29,368 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-26 01:31:29,368 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-26 01:31:29,368 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-26 01:31:29,368 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-26 01:31:29,368 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-26 01:31:29,368 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-26 01:31:29,369 [INFO] Argument:278 - Argument : Lockvalue: null
+2021-07-26 01:31:29,369 [INFO] Argument:288 - Argument : Lockvalue: null
+2021-07-26 01:31:29,369 [INFO] Argument:278 - Argument : Statevalue: null
+2021-07-26 01:31:29,369 [INFO] Argument:288 - Argument : Statevalue: null
+2021-07-26 01:31:29,369 [INFO] Argument:278 - Argument : Parentvalue: null
+2021-07-26 01:31:29,369 [INFO] Argument:288 - Argument : Parentvalue: null
+2021-07-26 01:31:29,369 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2021-07-26 01:31:29,369 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2021-07-26 01:31:29,369 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-26 01:31:29,369 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-26 01:31:29,369 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2021-07-26 01:31:29,369 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2021-07-26 01:31:29,369 [INFO] Argument:278 - Argument : XferAbortCallbackvalue: null
+2021-07-26 01:31:29,370 [INFO] Argument:288 - Argument : XferAbortCallbackvalue: null
+2021-07-26 01:31:29,370 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2021-07-26 01:31:29,370 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2021-07-26 01:31:29,370 [INFO] Argument:278 - Argument : DmaBaseAddressvalue: null
+2021-07-26 01:31:29,370 [INFO] Argument:288 - Argument : DmaBaseAddressvalue: null
+2021-07-26 01:31:29,370 [INFO] Argument:278 - Argument : ChannelIndexvalue: null
+2021-07-26 01:31:29,370 [INFO] Argument:288 - Argument : ChannelIndexvalue: null
+2021-07-26 01:31:29,370 [INFO] Argument:278 - Argument : hdmavalue: null
+2021-07-26 01:31:29,370 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 01:31:29,370 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Channel1
+2021-07-26 01:31:29,370 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Channel1
+2021-07-26 01:31:29,370 [INFO] Argument:278 - Argument : Initvalue: null
+2021-07-26 01:31:29,371 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 01:31:29,371 [INFO] Argument:278 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-26 01:31:29,371 [INFO] Argument:288 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-26 01:31:29,371 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-26 01:31:29,371 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-26 01:31:29,371 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-26 01:31:29,371 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-26 01:31:29,371 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-26 01:31:29,371 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-26 01:31:29,371 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-26 01:31:29,371 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-26 01:31:29,371 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-26 01:31:29,371 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-26 01:31:29,371 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-26 01:31:29,371 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-26 01:31:29,372 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-26 01:31:29,372 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-26 01:31:29,372 [INFO] Argument:278 - Argument : Lockvalue: null
+2021-07-26 01:31:29,372 [INFO] Argument:288 - Argument : Lockvalue: null
+2021-07-26 01:31:29,372 [INFO] Argument:278 - Argument : Statevalue: null
+2021-07-26 01:31:29,372 [INFO] Argument:288 - Argument : Statevalue: null
+2021-07-26 01:31:29,372 [INFO] Argument:278 - Argument : Parentvalue: null
+2021-07-26 01:31:29,372 [INFO] Argument:288 - Argument : Parentvalue: null
+2021-07-26 01:31:29,372 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2021-07-26 01:31:29,372 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2021-07-26 01:31:29,372 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-26 01:31:29,372 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-26 01:31:29,372 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2021-07-26 01:31:29,372 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2021-07-26 01:31:29,372 [INFO] Argument:278 - Argument : XferAbortCallbackvalue: null
+2021-07-26 01:31:29,373 [INFO] Argument:288 - Argument : XferAbortCallbackvalue: null
+2021-07-26 01:31:29,373 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2021-07-26 01:31:29,373 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2021-07-26 01:31:29,373 [INFO] Argument:278 - Argument : DmaBaseAddressvalue: null
+2021-07-26 01:31:29,373 [INFO] Argument:288 - Argument : DmaBaseAddressvalue: null
+2021-07-26 01:31:29,373 [INFO] Argument:278 - Argument : ChannelIndexvalue: null
+2021-07-26 01:31:29,373 [INFO] Argument:288 - Argument : ChannelIndexvalue: null
+2021-07-26 01:31:29,373 [INFO] Argument:278 - Argument : pSyncConfigvalue: null
+2021-07-26 01:31:29,373 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 01:31:29,373 [INFO] Argument:278 - Argument : SyncSignalIDvalue: null
+2021-07-26 01:31:29,373 [INFO] Argument:288 - Argument : SyncSignalIDvalue: null
+2021-07-26 01:31:29,373 [INFO] Argument:278 - Argument : SyncPolarityvalue: null
+2021-07-26 01:31:29,373 [INFO] Argument:288 - Argument : SyncPolarityvalue: null
+2021-07-26 01:31:29,373 [INFO] Argument:278 - Argument : SyncEnablevalue: null
+2021-07-26 01:31:29,373 [INFO] Argument:288 - Argument : SyncEnablevalue: null
+2021-07-26 01:31:29,373 [INFO] Argument:278 - Argument : EventEnablevalue: null
+2021-07-26 01:31:29,374 [INFO] Argument:288 - Argument : EventEnablevalue: null
+2021-07-26 01:31:29,374 [INFO] Argument:278 - Argument : RequestNumbervalue: null
+2021-07-26 01:31:29,374 [INFO] Argument:288 - Argument : RequestNumbervalue: null
+2021-07-26 01:31:29,812 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\license.tmp_save
+2021-07-26 01:31:29,929 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\license.tmp
+2021-07-26 01:31:30,072 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\gpio.tmp_save
+2021-07-26 01:31:30,121 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\gpio.tmp
+2021-07-26 01:31:30,147 [ERROR] IPConfigManager:1461 - ERROR: the RefConfig ADC_InternalChannelConfig is not available in your config.xml file
+2021-07-26 01:31:30,148 [ERROR] IPConfigManager:1461 - ERROR: the RefConfig ADC_EnableInternalRegulator is not available in your config.xml file
+2021-07-26 01:31:31,185 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-26 01:31:31,187 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-26 01:31:31,244 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma.tmp_save
+2021-07-26 01:31:31,292 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma.tmp
+2021-07-26 01:31:31,295 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma_GV.tmp_save
+2021-07-26 01:31:31,339 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma_GV.tmp
+2021-07-26 01:31:31,340 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-26 01:31:31,343 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-26 01:31:31,356 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_it.c_save
+2021-07-26 01:31:31,431 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_it.c
+2021-07-26 01:31:31,436 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_it.h_save
+2021-07-26 01:31:31,485 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_it.h
+2021-07-26 01:31:31,496 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_hal_msp.c_save
+2021-07-26 01:31:31,586 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_hal_msp.c
+2021-07-26 01:31:31,589 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\system.tmp_save
+2021-07-26 01:31:31,630 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\system.tmp
+2021-07-26 01:31:31,640 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_hal_conf.h_save
+2021-07-26 01:31:31,696 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_hal_conf.h
+2021-07-26 01:31:31,728 [WARN] IPConfigManager:2976 - IP not found : TIM
+2021-07-26 01:31:31,729 [WARN] CodeGenerator:3191 - IP not found : null
+2021-07-26 01:31:31,737 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\main.h_save
+2021-07-26 01:31:31,792 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\main.h
+2021-07-26 01:31:31,797 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\main.c_save
+2021-07-26 01:31:31,959 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\main.c
+2021-07-26 01:31:32,620 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 118mS.
+2021-07-26 01:31:32,624 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-07-26 01:31:32,924 [INFO] ConfigFileManager:1242 - The Die is : DIE435
+2021-07-26 01:31:34,717 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 2093mS.
+2021-07-26 01:31:34,718 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-26 01:31:34,721 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-26 01:32:20,865 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 735030784 Bytes (1033895936)
+2021-07-26 01:32:22,096 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 751808000 Bytes (1033895936)
+2021-07-26 01:32:23,721 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 794799616 Bytes (1033895936)
+2021-07-26 01:32:24,084 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-07-26 01:32:24,084 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-07-26 01:32:24,084 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM6_7L4
+2021-07-26 01:32:24,084 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: DMA
+2021-07-26 01:32:24,085 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8L4
+2021-07-26 01:32:24,085 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-07-26 01:32:24,085 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-07-26 01:32:24,085 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: ADC
+2021-07-26 01:32:24,085 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-07-26 01:32:24,086 [INFO] CodeGenerator:641 - code generatio: config db path: C:\ST\STM32CubeIDE_1.6.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\
+2021-07-26 01:32:24,097 [INFO] Argument:278 - Argument : hdmavalue: null
+2021-07-26 01:32:24,098 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 01:32:24,098 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Channel1
+2021-07-26 01:32:24,098 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Channel1
+2021-07-26 01:32:24,098 [INFO] Argument:278 - Argument : Initvalue: null
+2021-07-26 01:32:24,098 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 01:32:24,098 [INFO] Argument:278 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-26 01:32:24,098 [INFO] Argument:288 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-26 01:32:24,098 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-26 01:32:24,098 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-26 01:32:24,098 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-26 01:32:24,098 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-26 01:32:24,098 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-26 01:32:24,098 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-26 01:32:24,098 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-26 01:32:24,099 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-26 01:32:24,099 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-26 01:32:24,099 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-26 01:32:24,099 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-26 01:32:24,099 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-26 01:32:24,099 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-26 01:32:24,099 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-26 01:32:24,099 [INFO] Argument:278 - Argument : Lockvalue: null
+2021-07-26 01:32:24,099 [INFO] Argument:288 - Argument : Lockvalue: null
+2021-07-26 01:32:24,099 [INFO] Argument:278 - Argument : Statevalue: null
+2021-07-26 01:32:24,099 [INFO] Argument:288 - Argument : Statevalue: null
+2021-07-26 01:32:24,099 [INFO] Argument:278 - Argument : Parentvalue: null
+2021-07-26 01:32:24,099 [INFO] Argument:288 - Argument : Parentvalue: null
+2021-07-26 01:32:24,099 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2021-07-26 01:32:24,099 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2021-07-26 01:32:24,099 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-26 01:32:24,099 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-26 01:32:24,100 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2021-07-26 01:32:24,100 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2021-07-26 01:32:24,100 [INFO] Argument:278 - Argument : XferAbortCallbackvalue: null
+2021-07-26 01:32:24,100 [INFO] Argument:288 - Argument : XferAbortCallbackvalue: null
+2021-07-26 01:32:24,100 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2021-07-26 01:32:24,100 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2021-07-26 01:32:24,100 [INFO] Argument:278 - Argument : DmaBaseAddressvalue: null
+2021-07-26 01:32:24,100 [INFO] Argument:288 - Argument : DmaBaseAddressvalue: null
+2021-07-26 01:32:24,100 [INFO] Argument:278 - Argument : ChannelIndexvalue: null
+2021-07-26 01:32:24,100 [INFO] Argument:288 - Argument : ChannelIndexvalue: null
+2021-07-26 01:32:24,100 [INFO] Argument:278 - Argument : hdmavalue: null
+2021-07-26 01:32:24,100 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 01:32:24,100 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Channel1
+2021-07-26 01:32:24,100 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Channel1
+2021-07-26 01:32:24,101 [INFO] Argument:278 - Argument : Initvalue: null
+2021-07-26 01:32:24,101 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 01:32:24,101 [INFO] Argument:278 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-26 01:32:24,101 [INFO] Argument:288 - Argument : Requestvalue: DMA_REQUEST_0
+2021-07-26 01:32:24,101 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-26 01:32:24,101 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-07-26 01:32:24,101 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-26 01:32:24,101 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-07-26 01:32:24,101 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-26 01:32:24,101 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-07-26 01:32:24,101 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-26 01:32:24,101 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-07-26 01:32:24,101 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-26 01:32:24,101 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-07-26 01:32:24,101 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-26 01:32:24,101 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2021-07-26 01:32:24,101 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-26 01:32:24,102 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-07-26 01:32:24,102 [INFO] Argument:278 - Argument : Lockvalue: null
+2021-07-26 01:32:24,102 [INFO] Argument:288 - Argument : Lockvalue: null
+2021-07-26 01:32:24,102 [INFO] Argument:278 - Argument : Statevalue: null
+2021-07-26 01:32:24,102 [INFO] Argument:288 - Argument : Statevalue: null
+2021-07-26 01:32:24,102 [INFO] Argument:278 - Argument : Parentvalue: null
+2021-07-26 01:32:24,102 [INFO] Argument:288 - Argument : Parentvalue: null
+2021-07-26 01:32:24,102 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2021-07-26 01:32:24,102 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2021-07-26 01:32:24,102 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-26 01:32:24,102 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2021-07-26 01:32:24,102 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2021-07-26 01:32:24,102 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2021-07-26 01:32:24,102 [INFO] Argument:278 - Argument : XferAbortCallbackvalue: null
+2021-07-26 01:32:24,102 [INFO] Argument:288 - Argument : XferAbortCallbackvalue: null
+2021-07-26 01:32:24,102 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2021-07-26 01:32:24,102 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2021-07-26 01:32:24,102 [INFO] Argument:278 - Argument : DmaBaseAddressvalue: null
+2021-07-26 01:32:24,103 [INFO] Argument:288 - Argument : DmaBaseAddressvalue: null
+2021-07-26 01:32:24,103 [INFO] Argument:278 - Argument : ChannelIndexvalue: null
+2021-07-26 01:32:24,103 [INFO] Argument:288 - Argument : ChannelIndexvalue: null
+2021-07-26 01:32:24,103 [INFO] Argument:278 - Argument : pSyncConfigvalue: null
+2021-07-26 01:32:24,103 [INFO] Argument:280 - 	 sub Args: 
+2021-07-26 01:32:24,103 [INFO] Argument:278 - Argument : SyncSignalIDvalue: null
+2021-07-26 01:32:24,103 [INFO] Argument:288 - Argument : SyncSignalIDvalue: null
+2021-07-26 01:32:24,103 [INFO] Argument:278 - Argument : SyncPolarityvalue: null
+2021-07-26 01:32:24,103 [INFO] Argument:288 - Argument : SyncPolarityvalue: null
+2021-07-26 01:32:24,103 [INFO] Argument:278 - Argument : SyncEnablevalue: null
+2021-07-26 01:32:24,103 [INFO] Argument:288 - Argument : SyncEnablevalue: null
+2021-07-26 01:32:24,103 [INFO] Argument:278 - Argument : EventEnablevalue: null
+2021-07-26 01:32:24,103 [INFO] Argument:288 - Argument : EventEnablevalue: null
+2021-07-26 01:32:24,103 [INFO] Argument:278 - Argument : RequestNumbervalue: null
+2021-07-26 01:32:24,103 [INFO] Argument:288 - Argument : RequestNumbervalue: null
+2021-07-26 01:32:24,388 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\license.tmp_save
+2021-07-26 01:32:24,424 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\license.tmp
+2021-07-26 01:32:24,629 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\gpio.tmp_save
+2021-07-26 01:32:24,670 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\gpio.tmp
+2021-07-26 01:32:24,689 [ERROR] IPConfigManager:1461 - ERROR: the RefConfig ADC_InternalChannelConfig is not available in your config.xml file
+2021-07-26 01:32:24,690 [ERROR] IPConfigManager:1461 - ERROR: the RefConfig ADC_EnableInternalRegulator is not available in your config.xml file
+2021-07-26 01:32:25,663 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-26 01:32:25,665 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-26 01:32:25,722 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma.tmp_save
+2021-07-26 01:32:25,769 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma.tmp
+2021-07-26 01:32:25,772 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma_GV.tmp_save
+2021-07-26 01:32:25,810 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\dma_GV.tmp
+2021-07-26 01:32:25,811 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-26 01:32:25,813 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-07-26 01:32:25,826 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_it.c_save
+2021-07-26 01:32:25,893 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_it.c
+2021-07-26 01:32:25,898 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_it.h_save
+2021-07-26 01:32:25,947 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_it.h
+2021-07-26 01:32:25,958 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_hal_msp.c_save
+2021-07-26 01:32:26,047 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\stm32l4xx_hal_msp.c
+2021-07-26 01:32:26,051 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\system.tmp_save
+2021-07-26 01:32:26,092 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\MXTmpFiles\system.tmp
+2021-07-26 01:32:26,101 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_hal_conf.h_save
+2021-07-26 01:32:26,151 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\stm32l4xx_hal_conf.h
+2021-07-26 01:32:26,181 [WARN] IPConfigManager:2976 - IP not found : TIM
+2021-07-26 01:32:26,182 [WARN] CodeGenerator:3191 - IP not found : null
+2021-07-26 01:32:26,190 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\main.h_save
+2021-07-26 01:32:26,258 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Inc\main.h
+2021-07-26 01:32:26,263 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\main.c_save
+2021-07-26 01:32:26,388 [INFO] CodeEngine:247 - Generated code: C:\Users\yodav\Documents\Conestoga_College\FIRST_TERM\Embedded_Programming\Assignments\Assignment3\Stm32-TemperatureSensor\Assignment3V3\Core\Src\main.c
+2021-07-26 01:32:27,049 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 117mS.
+2021-07-26 01:32:27,053 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-07-26 01:32:27,347 [INFO] ConfigFileManager:1242 - The Die is : DIE435
+2021-07-26 01:32:29,009 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 1956mS.
+2021-07-26 01:32:29,009 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-07-26 01:32:29,012 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
