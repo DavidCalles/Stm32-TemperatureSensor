@@ -48,8 +48,22 @@ TIM_HandleTypeDef htim2;
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
-volatile uint16_t myVar = 0;
-volatile uint8_t pinA4State = 0;
+// Constants
+const float convRate = 3.3/4095;
+const float ec_2 = -244E-6;
+const float ec_1 = 2E-12;
+const float error_40 = 2;
+// Calibration values addresses for internal temperature sensor
+uint16_t *calibValue30_ptr = 0x1FFF75A8;
+uint16_t *calibValue130_ptr = 0x1FFF75CA;
+// Equation of a line assuming 2 known points (from calib values)
+float slope, slope2;
+float interb, interb2;
+
+// Potentiometer (pin A5), Internal temp, Outer temp (A1)
+volatile uint16_t myVar[3] = {1, 2, 3};
+float tempIn=0, tempOut=0;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -59,8 +73,11 @@ static void MX_DMA_Init(void);
 static void MX_USART2_UART_Init(void);
 static void MX_ADC1_Init(void);
 static void MX_TIM2_Init(void);
-/* USER CODE BEGIN PFP */
 
+/* USER CODE BEGIN PFP */
+float CalculateSensorInside(uint16_t);
+float CalculateSensorOutside(uint16_t);
+float CalculateSensorOutside2nd(float);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -75,7 +92,12 @@ static void MX_TIM2_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
+	// Conversion values trough the calibrated sensor values
+	slope = (130-30)/((float)(*calibValue130_ptr) - (float)(*calibValue30_ptr));
+	interb = (-slope * (float)(*calibValue30_ptr)) + 30;
+	// Typical calibration values for on-board temperature sensor
+	slope2 = 400;
+	interb2 = -slope2*0.76 + 30;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -102,8 +124,9 @@ int main(void)
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
   HAL_TIM_Base_Start(&htim2);
+  // Initial ADC calibration
   HAL_ADCEx_Calibration_Start(&hadc1, ADC_SINGLE_ENDED);
-  HAL_ADC_Start_DMA(&hadc1, &myVar, 1);
+  HAL_ADC_Start_DMA(&hadc1, myVar, 3);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -114,7 +137,16 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 
-	  printf("ADC Value: %d \n\r", myVar);
+	  //printf("Value1: %d \t Value2: %d \t Value3: %d \n\r", myVar[0], myVar[1], myVar[2]);
+	  // Temperature from on-board temperature sensor
+	  tempIn = CalculateSensorInside(myVar[1]);
+	  // Temperature from MCP9700A
+	  tempOut = CalculateSensorOutside(myVar[2]);
+	  // Compensating Temperature from MCP9700A with second order equation
+	  tempOut = CalculateSensorOutside2nd(tempOut);
+	  printf("TempIn: %.2f \t TempOut: %.2f \n\r", tempIn, tempOut);
+
+
   }
   /* USER CODE END 3 */
 }
@@ -213,11 +245,11 @@ static void MX_ADC1_Init(void)
   hadc1.Init.ClockPrescaler = ADC_CLOCK_ASYNC_DIV1;
   hadc1.Init.Resolution = ADC_RESOLUTION_12B;
   hadc1.Init.DataAlign = ADC_DATAALIGN_RIGHT;
-  hadc1.Init.ScanConvMode = ADC_SCAN_DISABLE;
+  hadc1.Init.ScanConvMode = ADC_SCAN_ENABLE;
   hadc1.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
   hadc1.Init.LowPowerAutoWait = DISABLE;
   hadc1.Init.ContinuousConvMode = DISABLE;
-  hadc1.Init.NbrOfConversion = 1;
+  hadc1.Init.NbrOfConversion = 3;
   hadc1.Init.DiscontinuousConvMode = DISABLE;
   hadc1.Init.ExternalTrigConv = ADC_EXTERNALTRIG_T2_TRGO;
   hadc1.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_RISING;
@@ -232,10 +264,26 @@ static void MX_ADC1_Init(void)
   */
   sConfig.Channel = ADC_CHANNEL_11;
   sConfig.Rank = ADC_REGULAR_RANK_1;
-  sConfig.SamplingTime = ADC_SAMPLETIME_2CYCLES_5;
+  sConfig.SamplingTime = ADC_SAMPLETIME_247CYCLES_5;
   sConfig.SingleDiff = ADC_SINGLE_ENDED;
   sConfig.OffsetNumber = ADC_OFFSET_NONE;
   sConfig.Offset = 0;
+  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /** Configure Regular Channel
+  */
+  sConfig.Channel = ADC_CHANNEL_TEMPSENSOR;
+  sConfig.Rank = ADC_REGULAR_RANK_2;
+  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /** Configure Regular Channel
+  */
+  sConfig.Channel = ADC_CHANNEL_6;
+  sConfig.Rank = ADC_REGULAR_RANK_3;
   if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
   {
     Error_Handler();
@@ -397,6 +445,31 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc){
 	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
 	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
 }
+
+//Temperature sensor on a MCP9700A
+float CalculateSensorOutside(uint16_t tempIn){
+
+	float voltsIn = (float)tempIn*convRate;
+	float tempOut = (voltsIn-0.5)/0.01;
+	return tempOut;
+}
+
+//Compansated Temperature on MCP9700A with 2nd order error calculation
+//AN1001 application note
+float CalculateSensorOutside2nd(float ta){
+
+	float tError = (ec_2*(125-ta)*(ta+40)) + (ec_1*(ta+40)) + error_40;
+	return (ta-tError);
+}
+//Temperature sensor on board
+
+float CalculateSensorInside(uint16_t tempIn){
+
+	float voltsIn = (float)tempIn*convRate;
+	float tempOut = (slope2*((float)voltsIn)) +interb2;
+	return tempOut;
+}
+
 /* USER CODE END 4 */
 
 /**
