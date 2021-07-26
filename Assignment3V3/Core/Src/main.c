@@ -23,6 +23,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include <stdio.h>
+#include "lcd.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -32,6 +33,39 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+#define LCD_TICKS 1000	//ms between LCD refreshes
+
+/*LCD screen pins*/
+#define D0_GPIO_Port GPIOB	// Data 0 GPIO port
+#define D1_GPIO_Port GPIOB	// Data 1 GPIO port
+#define D2_GPIO_Port GPIOB	// Data 2 GPIO port
+#define D3_GPIO_Port GPIOB	// Data 3 GPIO port
+#define D4_GPIO_Port GPIOA	// Data 4 GPIO port
+#define D5_GPIO_Port GPIOA	// Data 5 GPIO port
+#define D6_GPIO_Port GPIOB	// Data 6 GPIO port
+#define D7_GPIO_Port GPIOB	// Data 7 GPIO port
+
+#define D0_Pin GPIO_PIN_0	// Data 0 pin (D3 on board)
+#define D1_Pin GPIO_PIN_7	// Data 0 pin (D4 on board)
+#define D2_Pin GPIO_PIN_6	// Data 0 pin (D5 on board)
+#define D3_Pin GPIO_PIN_1	// Data 0 pin (D6 on board)
+#define D4_Pin GPIO_PIN_8	// Data 0 pin (D9 on board)
+#define D5_Pin GPIO_PIN_11	// Data 0 pin (D10 on board)
+#define D6_Pin GPIO_PIN_5	// Data 0 pin (D11 on board)
+#define D7_Pin GPIO_PIN_4	// Data 0 pin (D12 on board)
+
+#define RS_GPIO_Port GPIOA		 // Register select GPIO port
+#define RS_Pin 		 GPIO_PIN_9  // Register select pin (D1)
+#define EN_GPIO_Port GPIOA		 // Enable GPIO port
+#define EN_Pin		 GPIO_PIN_10 // Register select pin (D0)
+
+/*RGB LED Pins*/
+#define RED_LED_PORT GPIOA
+#define RED_LED_PIN GPIO_PIN_4
+#define GREEN_LED_PORT GPIOA
+#define GREEN_LED_PIN GPIO_PIN_3
+#define BLUE_LED_PORT GPIOA
+#define BLUE_LED_PIN GPIO_PIN_7
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -44,6 +78,7 @@ ADC_HandleTypeDef hadc1;
 DMA_HandleTypeDef hdma_adc1;
 
 TIM_HandleTypeDef htim2;
+TIM_HandleTypeDef htim7;
 
 UART_HandleTypeDef huart2;
 
@@ -73,7 +108,7 @@ static void MX_DMA_Init(void);
 static void MX_USART2_UART_Init(void);
 static void MX_ADC1_Init(void);
 static void MX_TIM2_Init(void);
-
+static void MX_TIM7_Init(void);
 /* USER CODE BEGIN PFP */
 float CalculateSensorInside(uint16_t);
 float CalculateSensorOutside(uint16_t);
@@ -92,12 +127,27 @@ float CalculateSensorOutside2nd(float);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
+
+	// GPIO Ports for LCD
+	Lcd_PortType ports[] = {
+		D0_GPIO_Port, D1_GPIO_Port, D2_GPIO_Port, D3_GPIO_Port,
+		D4_GPIO_Port, D5_GPIO_Port, D6_GPIO_Port, D7_GPIO_Port
+	 };
+	// GPIO Pins for LCD
+	Lcd_PinType pins[] = {D0_Pin, D1_Pin, D2_Pin, D3_Pin,
+						  D4_Pin, D5_Pin, D6_Pin, D7_Pin};
 	// Conversion values trough the calibrated sensor values
 	slope = (130-30)/((float)(*calibValue130_ptr) - (float)(*calibValue30_ptr));
 	interb = (-slope * (float)(*calibValue30_ptr)) + 30;
 	// Typical calibration values for on-board temperature sensor
 	slope2 = 400;
 	interb2 = -slope2*0.76 + 30;
+
+	// Timing variable
+	uint32_t tick, tLast = HAL_GetTick();
+
+	// LCD message variable
+	char mssg[17];
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -106,14 +156,22 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-
+  // Create handler for the LCD
+	Lcd_HandleTypeDef lcd;
+	lcd = Lcd_create(ports, pins,
+				  RS_GPIO_Port, RS_Pin,
+				  EN_GPIO_Port, EN_Pin,
+				  LCD_8_BIT_MODE);
   /* USER CODE END Init */
 
   /* Configure the system clock */
   SystemClock_Config();
 
   /* USER CODE BEGIN SysInit */
-
+  Lcd_clear(&lcd);
+  Lcd_cursor(&lcd, 0,1);
+  Lcd_string(&lcd, "HI; HOW ARE YOU?");
+  HAL_Delay(2000);
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
@@ -122,6 +180,7 @@ int main(void)
   MX_USART2_UART_Init();
   MX_ADC1_Init();
   MX_TIM2_Init();
+  MX_TIM7_Init();
   /* USER CODE BEGIN 2 */
   HAL_TIM_Base_Start(&htim2);
   // Initial ADC calibration
@@ -144,7 +203,24 @@ int main(void)
 	  tempOut = CalculateSensorOutside(myVar[2]);
 	  // Compensating Temperature from MCP9700A with second order equation
 	  tempOut = CalculateSensorOutside2nd(tempOut);
-	  printf("TempIn: %.2f \t TempOut: %.2f \n\r", tempIn, tempOut);
+
+	  // Updating LCD when required
+	  tick = HAL_GetTick();
+	  if(tick-tLast > LCD_TICKS){
+		  tLast = tick;
+		  // LCS Message
+		  Lcd_clear(&lcd);
+		  Lcd_cursor(&lcd, 0,0);
+		  sprintf(mssg, "T: In  %.1f C", tempIn);
+		  Lcd_string(&lcd, mssg);
+		  Lcd_cursor(&lcd, 1,0);
+		  sprintf(mssg, "T: Out %.1f C", tempOut);
+		  Lcd_string(&lcd, mssg);
+		  // Print in Serial Port
+		  printf("Time: %ld, TempIn: %.2f \t TempOut: %.2f \n\r", tick, tempIn, tempOut);
+	  }
+
+
 
 
   }
@@ -353,6 +429,44 @@ static void MX_TIM2_Init(void)
 }
 
 /**
+  * @brief TIM7 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM7_Init(void)
+{
+
+  /* USER CODE BEGIN TIM7_Init 0 */
+
+  /* USER CODE END TIM7_Init 0 */
+
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+
+  /* USER CODE BEGIN TIM7_Init 1 */
+
+  /* USER CODE END TIM7_Init 1 */
+  htim7.Instance = TIM7;
+  htim7.Init.Prescaler = 320;
+  htim7.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim7.Init.Period = 100;
+  htim7.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim7) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_UPDATE;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim7, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM7_Init 2 */
+
+  /* USER CODE END TIM7_Init 2 */
+
+}
+
+/**
   * @brief USART2 Initialization Function
   * @param None
   * @retval None
@@ -418,24 +532,30 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3|GPIO_PIN_4|GPIO_PIN_5|GPIO_PIN_7
+                          |GPIO_PIN_8|GPIO_PIN_9|GPIO_PIN_10|GPIO_PIN_11, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0|GPIO_PIN_1|LD3_Pin|GPIO_PIN_4
+                          |GPIO_PIN_5|GPIO_PIN_6|GPIO_PIN_7, GPIO_PIN_RESET);
 
-  /*Configure GPIO pin : PA5 */
-  GPIO_InitStruct.Pin = GPIO_PIN_5;
+  /*Configure GPIO pins : PA3 PA4 PA5 PA7
+                           PA8 PA9 PA10 PA11 */
+  GPIO_InitStruct.Pin = GPIO_PIN_3|GPIO_PIN_4|GPIO_PIN_5|GPIO_PIN_7
+                          |GPIO_PIN_8|GPIO_PIN_9|GPIO_PIN_10|GPIO_PIN_11;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : LD3_Pin */
-  GPIO_InitStruct.Pin = LD3_Pin;
+  /*Configure GPIO pins : PB0 PB1 LD3_Pin PB4
+                           PB5 PB6 PB7 */
+  GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_1|LD3_Pin|GPIO_PIN_4
+                          |GPIO_PIN_5|GPIO_PIN_6|GPIO_PIN_7;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(LD3_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
 }
 
